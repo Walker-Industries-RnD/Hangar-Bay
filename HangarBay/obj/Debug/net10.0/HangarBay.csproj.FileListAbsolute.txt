@@ -1,0 +1,14 @@
+C:\Users\WalkerDev\source\repos\HangarBay\HangarBay\bin\Debug\net10.0\HangarBay.deps.json
+C:\Users\WalkerDev\source\repos\HangarBay\HangarBay\bin\Debug\net10.0\HangarBay.dll
+C:\Users\WalkerDev\source\repos\HangarBay\HangarBay\bin\Debug\net10.0\HangarBay.pdb
+C:\Users\WalkerDev\source\repos\HangarBay\HangarBay\bin\Debug\net10.0\PariahCybersecurity.dll
+C:\Users\WalkerDev\source\repos\HangarBay\HangarBay\obj\Debug\net10.0\HangarBay.csproj.AssemblyReference.cache
+C:\Users\WalkerDev\source\repos\HangarBay\HangarBay\obj\Debug\net10.0\HangarBay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WalkerDev\source\repos\HangarBay\HangarBay\obj\Debug\net10.0\HangarBay.AssemblyInfoInputs.cache
+C:\Users\WalkerDev\source\repos\HangarBay\HangarBay\obj\Debug\net10.0\HangarBay.AssemblyInfo.cs
+C:\Users\WalkerDev\source\repos\HangarBay\HangarBay\obj\Debug\net10.0\HangarBay.csproj.CoreCompileInputs.cache
+C:\Users\WalkerDev\source\repos\HangarBay\HangarBay\obj\Debug\net10.0\HangarBay.csproj.Up2Date
+C:\Users\WalkerDev\source\repos\HangarBay\HangarBay\obj\Debug\net10.0\HangarBay.dll
+C:\Users\WalkerDev\source\repos\HangarBay\HangarBay\obj\Debug\net10.0\refint\HangarBay.dll
+C:\Users\WalkerDev\source\repos\HangarBay\HangarBay\obj\Debug\net10.0\HangarBay.pdb
+C:\Users\WalkerDev\source\repos\HangarBay\HangarBay\obj\Debug\net10.0\ref\HangarBay.dll

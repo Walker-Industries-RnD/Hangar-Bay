@@ -1,0 +1,1530 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "HangarBay/1.0.0": {
+        "dependencies": {
+          "BouncyCastle.NetCore": "2.2.1",
+          "Ceras": "4.1.7",
+          "Data.HashFunction.Blake3": "3.1.2",
+          "DouglasDwyer.CasCore": "0.2.1",
+          "EasyCompressor.LZ4": "2.1.0",
+          "K4os.Compression.LZ4": "1.3.8",
+          "Konscious.Security.Cryptography.Argon2": "1.3.1",
+          "Newtonsoft.Json": "13.0.4",
+          "Stride.CommunityToolkit": "1.0.0-preview.62",
+          "System.Data.HashFunction.Interfaces": "2.0.0",
+          "PariahCybersecurity": "1.0.0.1"
+        },
+        "runtime": {
+          "HangarBay.dll": {}
+        }
+      },
+      "BouncyCastle.NetCore/2.2.1": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Ceras/4.1.7": {
+        "runtime": {
+          "lib/netstandard2.0/Ceras.dll": {
+            "assemblyVersion": "4.1.7.0",
+            "fileVersion": "4.1.7.0"
+          }
+        }
+      },
+      "Data.HashFunction.Blake3/3.1.2": {
+        "dependencies": {
+          "Data.HashFunction.Core": "3.1.2",
+          "Data.HashFunction.Interfaces": "3.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Data.HashFunction.Blake3.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.1.2.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libblake3_dotnet.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libblake3_dotnet.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libblake3_dotnet.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/libblake3_dotnet.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libblake3_dotnet.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/blake3_dotnet.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/blake3_dotnet.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/blake3_dotnet.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Data.HashFunction.Core/3.1.2": {
+        "dependencies": {
+          "Data.HashFunction.Interfaces": "3.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Data.HashFunction.Core.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.1.2.0"
+          }
+        }
+      },
+      "Data.HashFunction.Interfaces/3.1.2": {
+        "runtime": {
+          "lib/netstandard2.0/Data.HashFunction.Interfaces.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.1.2.0"
+          }
+        }
+      },
+      "DouglasDwyer.CasCore/0.2.1": {
+        "dependencies": {
+          "DouglasDwyer.JitIlVerification": "0.1.3",
+          "Mono.Cecil": "0.11.6"
+        },
+        "runtime": {
+          "lib/net8.0/CasCore.dll": {
+            "assemblyVersion": "0.2.1.0",
+            "fileVersion": "0.2.1.0"
+          }
+        }
+      },
+      "DouglasDwyer.JitIlVerification/0.1.3": {
+        "dependencies": {
+          "Mono.Cecil": "0.11.6"
+        },
+        "runtime": {
+          "lib/net8.0/JitIlVerification.dll": {
+            "assemblyVersion": "0.1.3.0",
+            "fileVersion": "0.1.3.0"
+          }
+        }
+      },
+      "EasyCompressor/2.1.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/EasyCompressor.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "EasyCompressor.LZ4/2.1.0": {
+        "dependencies": {
+          "EasyCompressor": "2.1.0",
+          "K4os.Compression.LZ4": "1.3.8",
+          "K4os.Compression.LZ4.Streams": "1.3.8"
+        },
+        "runtime": {
+          "lib/net9.0/EasyCompressor.LZ4.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "K4os.Compression.LZ4/1.3.8": {
+        "runtime": {
+          "lib/net6.0/K4os.Compression.LZ4.dll": {
+            "assemblyVersion": "1.3.8.0",
+            "fileVersion": "1.3.8.0"
+          }
+        }
+      },
+      "K4os.Compression.LZ4.Legacy/1.3.6": {
+        "dependencies": {
+          "K4os.Compression.LZ4": "1.3.8"
+        },
+        "runtime": {
+          "lib/net5.0/K4os.Compression.LZ4.Legacy.dll": {
+            "assemblyVersion": "1.3.6.0",
+            "fileVersion": "1.3.6.0"
+          }
+        }
+      },
+      "K4os.Compression.LZ4.Streams/1.3.8": {
+        "dependencies": {
+          "K4os.Compression.LZ4": "1.3.8",
+          "K4os.Hash.xxHash": "1.0.8"
+        },
+        "runtime": {
+          "lib/net6.0/K4os.Compression.LZ4.Streams.dll": {
+            "assemblyVersion": "1.3.8.0",
+            "fileVersion": "1.3.8.0"
+          }
+        }
+      },
+      "K4os.Hash.xxHash/1.0.8": {
+        "runtime": {
+          "lib/net6.0/K4os.Hash.xxHash.dll": {
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
+          }
+        }
+      },
+      "Konscious.Security.Cryptography.Argon2/1.3.1": {
+        "dependencies": {
+          "Konscious.Security.Cryptography.Blake2": "1.1.1"
+        },
+        "runtime": {
+          "lib/net8.0/Konscious.Security.Cryptography.Argon2.dll": {
+            "assemblyVersion": "1.3.1.0",
+            "fileVersion": "1.3.1.0"
+          }
+        }
+      },
+      "Konscious.Security.Cryptography.Blake2/1.1.1": {
+        "runtime": {
+          "lib/net8.0/Konscious.Security.Cryptography.Blake2.dll": {
+            "assemblyVersion": "1.1.1.0",
+            "fileVersion": "1.1.1.0"
+          }
+        }
+      },
+      "Microsoft.DotNet.PlatformAbstractions/3.1.6": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll": {
+            "assemblyVersion": "3.1.6.0",
+            "fileVersion": "3.100.620.31604"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.425.16305"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Mono.Cecil/0.11.6": {
+        "runtime": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
+            "assemblyVersion": "0.11.6.0",
+            "fileVersion": "0.11.6.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
+            "assemblyVersion": "0.11.6.0",
+            "fileVersion": "0.11.6.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
+            "assemblyVersion": "0.11.6.0",
+            "fileVersion": "0.11.6.0"
+          },
+          "lib/netstandard2.0/Mono.Cecil.dll": {
+            "assemblyVersion": "0.11.6.0",
+            "fileVersion": "0.11.6.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.4.30916"
+          }
+        }
+      },
+      "ServiceWire/5.5.4": {
+        "runtime": {
+          "lib/netstandard2.0/ServiceWire.dll": {
+            "assemblyVersion": "5.5.4.0",
+            "fileVersion": "5.5.4.0"
+          }
+        }
+      },
+      "SharpDX/4.2.0": {
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.D3DCompiler/4.2.0": {
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.D3DCompiler.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.Direct3D11/4.2.0": {
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.Direct3D11.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.Direct3D12/4.2.0": {
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.Direct3D12.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "SharpDX.DXGI/4.2.0": {
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.DXGI.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "Silk.NET.Core/2.22.0": {
+        "dependencies": {
+          "Microsoft.DotNet.PlatformAbstractions": "3.1.6",
+          "Microsoft.Extensions.DependencyModel": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Silk.NET.Core.dll": {
+            "assemblyVersion": "2.22.0.0",
+            "fileVersion": "2.22.0.0"
+          }
+        }
+      },
+      "Silk.NET.Maths/2.22.0": {
+        "runtime": {
+          "lib/net5.0/Silk.NET.Maths.dll": {
+            "assemblyVersion": "2.22.0.0",
+            "fileVersion": "2.22.0.0"
+          }
+        }
+      },
+      "Silk.NET.OpenGL/2.22.0": {
+        "dependencies": {
+          "Silk.NET.Core": "2.22.0",
+          "Silk.NET.Maths": "2.22.0"
+        },
+        "runtime": {
+          "lib/net5.0/Silk.NET.OpenGL.dll": {
+            "assemblyVersion": "2.22.0.0",
+            "fileVersion": "2.22.0.0"
+          }
+        }
+      },
+      "Silk.NET.OpenGLES/2.22.0": {
+        "dependencies": {
+          "Silk.NET.Core": "2.22.0",
+          "Silk.NET.Maths": "2.22.0"
+        },
+        "runtime": {
+          "lib/net5.0/Silk.NET.OpenGLES.dll": {
+            "assemblyVersion": "2.22.0.0",
+            "fileVersion": "2.22.0.0"
+          }
+        }
+      },
+      "Silk.NET.OpenGLES.Extensions.EXT/2.22.0": {
+        "dependencies": {
+          "Silk.NET.Core": "2.22.0",
+          "Silk.NET.OpenGLES": "2.22.0"
+        },
+        "runtime": {
+          "lib/net5.0/Silk.NET.OpenGLES.Extensions.EXT.dll": {
+            "assemblyVersion": "2.22.0.0",
+            "fileVersion": "2.22.0.0"
+          }
+        }
+      },
+      "Silk.NET.OpenXR/2.22.0": {
+        "dependencies": {
+          "Silk.NET.Core": "2.22.0",
+          "Silk.NET.Maths": "2.22.0"
+        },
+        "runtime": {
+          "lib/net5.0/Silk.NET.OpenXR.dll": {
+            "assemblyVersion": "2.22.0.0",
+            "fileVersion": "2.22.0.0"
+          }
+        }
+      },
+      "Silk.NET.OpenXR.Extensions.FB/2.22.0": {
+        "dependencies": {
+          "Silk.NET.Core": "2.22.0",
+          "Silk.NET.OpenXR": "2.22.0"
+        },
+        "runtime": {
+          "lib/net5.0/Silk.NET.OpenXR.Extensions.FB.dll": {
+            "assemblyVersion": "2.22.0.0",
+            "fileVersion": "2.22.0.0"
+          }
+        }
+      },
+      "Silk.NET.SDL/2.22.0": {
+        "dependencies": {
+          "Silk.NET.Core": "2.22.0",
+          "Silk.NET.Maths": "2.22.0",
+          "Ultz.Native.SDL": "2.30.8"
+        },
+        "runtime": {
+          "lib/net6.0/Silk.NET.SDL.dll": {
+            "assemblyVersion": "2.22.0.0",
+            "fileVersion": "2.22.0.0"
+          }
+        }
+      },
+      "Stride/4.3.0.2507": {
+        "dependencies": {
+          "Stride.Core.Mathematics": "4.3.0.2507",
+          "Stride.Core.Serialization": "4.3.0.2507",
+          "System.Drawing.Common": "8.0.1"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.dll": {
+            "assemblyVersion": "4.3.0.2507",
+            "fileVersion": "4.3.0.2507"
+          }
+        }
+      },
+      "Stride.Audio/4.3.0.2507": {
+        "dependencies": {
+          "Stride": "4.3.0.2507",
+          "Stride.Native": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Audio.dll": {
+            "assemblyVersion": "4.3.0.2507",
+            "fileVersion": "4.3.0.2507"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libstrideaudio.so": {
+            "rid": "android-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-arm64/native/libstrideaudio.so": {
+            "rid": "android-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-x64/native/libstrideaudio.so": {
+            "rid": "android-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-x86/native/libstrideaudio.so": {
+            "rid": "android-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ios/native/libCelt.a": {
+            "rid": "ios",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ios/native/libNativePath.a": {
+            "rid": "ios",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ios/native/libstrideaudio.a": {
+            "rid": "ios",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libstrideaudio.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libstrideaudio.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/libstrideaudio.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libstrideaudio.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libstrideaudio.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Stride.CommunityToolkit/1.0.0-preview.62": {
+        "dependencies": {
+          "Stride.Engine": "4.3.0.2507",
+          "Stride.Particles": "4.3.0.2507",
+          "Stride.Physics": "4.3.0.2507",
+          "Stride.UI": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.CommunityToolkit.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Stride.Core/4.3.0.2507": {
+        "dependencies": {
+          "ServiceWire": "5.5.4"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Core.dll": {
+            "assemblyVersion": "4.3.0.1",
+            "fileVersion": "4.3.0.1"
+          }
+        }
+      },
+      "Stride.Core.IO/4.3.0.2507": {
+        "dependencies": {
+          "Stride.Core": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Core.IO.dll": {
+            "assemblyVersion": "4.3.0.1",
+            "fileVersion": "4.3.0.1"
+          }
+        }
+      },
+      "Stride.Core.Mathematics/4.3.0.2507": {
+        "dependencies": {
+          "Stride.Core": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Core.Mathematics.dll": {
+            "assemblyVersion": "4.3.0.1",
+            "fileVersion": "4.3.0.1"
+          }
+        }
+      },
+      "Stride.Core.MicroThreading/4.3.0.2507": {
+        "dependencies": {
+          "Stride.Core": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Core.MicroThreading.dll": {
+            "assemblyVersion": "4.3.0.1",
+            "fileVersion": "4.3.0.1"
+          }
+        }
+      },
+      "Stride.Core.Serialization/4.3.0.2507": {
+        "dependencies": {
+          "K4os.Compression.LZ4.Legacy": "1.3.6",
+          "Stride.Core.IO": "4.3.0.2507",
+          "Stride.Core.MicroThreading": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Core.Serialization.dll": {
+            "assemblyVersion": "4.3.0.1",
+            "fileVersion": "4.3.0.1"
+          }
+        }
+      },
+      "Stride.Core.Shaders/4.3.0.2507": {
+        "dependencies": {
+          "Stride.Core": "4.3.0.2507",
+          "Stride.Irony": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/CppNet.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net10.0/Stride.Core.Shaders.dll": {
+            "assemblyVersion": "4.3.0.1",
+            "fileVersion": "4.3.0.1"
+          }
+        }
+      },
+      "Stride.Engine/4.3.0.2507": {
+        "dependencies": {
+          "Stride.Audio": "4.3.0.2507",
+          "Stride.Rendering": "4.3.0.2507",
+          "Stride.Shaders.Compiler": "4.3.0.2507",
+          "Stride.VirtualReality": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Engine.dll": {
+            "assemblyVersion": "4.3.0.2507",
+            "fileVersion": "4.3.0.2507"
+          }
+        }
+      },
+      "Stride.Games/4.3.0.2507": {
+        "dependencies": {
+          "Stride.Graphics": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Direct3D11/Stride.Games.dll": {
+            "assemblyVersion": "4.3.0.2507",
+            "fileVersion": "4.3.0.2507"
+          }
+        }
+      },
+      "Stride.Graphics/4.3.0.2507": {
+        "dependencies": {
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.Direct3D11": "4.2.0",
+          "SharpDX.Direct3D12": "4.2.0",
+          "Silk.NET.OpenGL": "2.22.0",
+          "Silk.NET.OpenGLES": "2.22.0",
+          "Silk.NET.OpenGLES.Extensions.EXT": "2.22.0",
+          "Silk.NET.SDL": "2.22.0",
+          "Stride": "4.3.0.2507",
+          "Stride.Shaders": "4.3.0.2507",
+          "Stride.SharpFont": "1.0.1",
+          "Vortice.Vulkan": "2.1.2"
+        },
+        "runtime": {
+          "lib/net10.0/Direct3D11/Stride.Graphics.dll": {
+            "assemblyVersion": "4.3.0.2507",
+            "fileVersion": "4.3.0.2507"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libfreetype.so": {
+            "rid": "android-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-arm64/native/libfreetype.so": {
+            "rid": "android-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-x64/native/libfreetype.so": {
+            "rid": "android-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-x86/native/libfreetype.so": {
+            "rid": "android-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libfreetype.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libvulkan.1.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/freetype.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/freetype.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/freetype.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Stride.Input/4.3.0.2507": {
+        "dependencies": {
+          "Stride.Games": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Direct3D11/Stride.Input.dll": {
+            "assemblyVersion": "4.3.0.2507",
+            "fileVersion": "4.3.0.2507"
+          }
+        }
+      },
+      "Stride.Irony/4.3.0.2507": {
+        "runtime": {
+          "lib/net10.0/Stride.Irony.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Stride.Native/4.3.0.2507": {
+        "dependencies": {
+          "Stride.Core.Mathematics": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Native.dll": {
+            "assemblyVersion": "4.3.0.2507",
+            "fileVersion": "4.3.0.2507"
+          }
+        }
+      },
+      "Stride.Particles/4.3.0.2507": {
+        "dependencies": {
+          "Stride.Engine": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Particles.dll": {
+            "assemblyVersion": "4.3.0.2507",
+            "fileVersion": "4.3.0.2507"
+          }
+        }
+      },
+      "Stride.Physics/4.3.0.2507": {
+        "dependencies": {
+          "Stride.Engine": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/BulletSharp.NetStandard.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/net10.0/Stride.Physics.dll": {
+            "assemblyVersion": "4.3.0.2507",
+            "fileVersion": "4.3.0.2507"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libbulletc.so": {
+            "rid": "android-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-arm64/native/libbulletc.so": {
+            "rid": "android-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-x64/native/libbulletc.so": {
+            "rid": "android-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-x86/native/libbulletc.so": {
+            "rid": "android-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libbulletc.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libbulletc.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/libbulletc.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libbulletc.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libbulletc.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Stride.Rendering/4.3.0.2507": {
+        "dependencies": {
+          "Stride.Games": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Rendering.dll": {
+            "assemblyVersion": "4.3.0.2507",
+            "fileVersion": "4.3.0.2507"
+          }
+        }
+      },
+      "Stride.Shaders/4.3.0.2507": {
+        "dependencies": {
+          "Stride": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Shaders.dll": {
+            "assemblyVersion": "4.3.0.2507",
+            "fileVersion": "4.3.0.2507"
+          }
+        }
+      },
+      "Stride.Shaders.Compiler/4.3.0.2507": {
+        "dependencies": {
+          "SharpDX.D3DCompiler": "4.2.0",
+          "Stride.Shaders.Parser": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Shaders.Compiler.dll": {
+            "assemblyVersion": "4.3.0.2507",
+            "fileVersion": "4.3.0.2507"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/d3dcompiler_47.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "10.0.26100.6901"
+          },
+          "runtimes/win-x64/native/d3dcompiler_47.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "10.0.26100.6901"
+          },
+          "runtimes/win-x86/native/d3dcompiler_47.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "10.0.26100.6901"
+          }
+        }
+      },
+      "Stride.Shaders.Parser/4.3.0.2507": {
+        "dependencies": {
+          "Stride.Core.Shaders": "4.3.0.2507",
+          "Stride.Shaders": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Shaders.Parser.dll": {
+            "assemblyVersion": "4.3.0.2507",
+            "fileVersion": "4.3.0.2507"
+          }
+        }
+      },
+      "Stride.SharpFont/1.0.1": {
+        "dependencies": {
+          "System.Drawing.Common": "8.0.1"
+        },
+        "runtime": {
+          "lib/net8.0/SharpFont.dll": {
+            "assemblyVersion": "4.0.1.200",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "Stride.UI/4.3.0.2507": {
+        "dependencies": {
+          "Stride.Engine": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Stride.UI.dll": {
+            "assemblyVersion": "4.3.0.2507",
+            "fileVersion": "4.3.0.2507"
+          }
+        }
+      },
+      "Stride.VirtualReality/4.3.0.2507": {
+        "dependencies": {
+          "Silk.NET.OpenXR": "2.22.0",
+          "Silk.NET.OpenXR.Extensions.FB": "2.22.0",
+          "Stride.Games": "4.3.0.2507",
+          "Stride.Graphics": "4.3.0.2507",
+          "Stride.Input": "4.3.0.2507"
+        },
+        "runtime": {
+          "lib/net10.0/Direct3D11/Stride.VirtualReality.dll": {
+            "assemblyVersion": "4.3.0.2507",
+            "fileVersion": "4.3.0.2507"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libstridevr.so": {
+            "rid": "android-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-arm64/native/libstridevr.so": {
+            "rid": "android-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-x64/native/libstridevr.so": {
+            "rid": "android-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/android-x86/native/libstridevr.so": {
+            "rid": "android-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ios/native/libNativePath.a": {
+            "rid": "ios",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/ios/native/libstridevr.a": {
+            "rid": "ios",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libstridevr.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libstridevr.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libstridevr.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/openvr_api.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.14.15.0"
+          },
+          "runtimes/win-x64/native/openxr_loader.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.10.0"
+          },
+          "runtimes/win-x86/native/libstridevr.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/openvr_api.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.14.15.0"
+          }
+        }
+      },
+      "System.Data.HashFunction.Interfaces/2.0.0": {
+        "runtime": {
+          "lib/netstandard1.1/System.Data.HashFunction.Interfaces.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.1": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.123.58006"
+          }
+        }
+      },
+      "Ultz.Native.SDL/2.30.8": {
+        "runtimeTargets": {
+          "runtimes/ios/native/libSDL2.a": {
+            "rid": "ios",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/iossimulator/native/libSDL2.a": {
+            "rid": "iossimulator",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm/native/libSDL2-2.0.so": {
+            "rid": "linux-arm",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-arm64/native/libSDL2-2.0.so": {
+            "rid": "linux-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libSDL2-2.0.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libSDL2-2.0.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/tvos/native/libSDL2.a": {
+            "rid": "tvos",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/tvossimulator/native/libSDL2.a": {
+            "rid": "tvossimulator",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-arm64/native/SDL2.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "2.30.8.0"
+          },
+          "runtimes/win-x64/native/SDL2.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "2.30.8.0"
+          },
+          "runtimes/win-x86/native/SDL2.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "2.30.8.0"
+          }
+        }
+      },
+      "Vortice.Vulkan/2.1.2": {
+        "runtime": {
+          "lib/net9.0/Vortice.Vulkan.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.0"
+          }
+        }
+      },
+      "PariahCybersecurity/1.0.0.1": {
+        "runtime": {
+          "PariahCybersecurity.dll": {
+            "assemblyVersion": "1.0.0.1",
+            "fileVersion": "1.0.0.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HangarBay/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BouncyCastle.NetCore/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yfWn8JYPc4rkeM2kcsCqFVFOvwCuuQvIieGtQWcjoWxOioeznXQB3M/GmHgbCWbJjc8ycrwGhZaZPiasifYi4A==",
+      "path": "bouncycastle.netcore/2.2.1",
+      "hashPath": "bouncycastle.netcore.2.2.1.nupkg.sha512"
+    },
+    "Ceras/4.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5hKNZAySyylTKELWfnLAFDG9A23Osp0Yqonpnmv2/MPqcVJjMC6/N/5EKJHYmMaw2xnLL8kiQaCe6Fu+tjNG/w==",
+      "path": "ceras/4.1.7",
+      "hashPath": "ceras.4.1.7.nupkg.sha512"
+    },
+    "Data.HashFunction.Blake3/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lSwfOGH6e5BN4nJv+8X+v+vf1kqWFxKbpnk+1vCBx57veX2YxljgK2N/Og5PJ7VOF5ahLRoxBPk+wwu9yDwvhw==",
+      "path": "data.hashfunction.blake3/3.1.2",
+      "hashPath": "data.hashfunction.blake3.3.1.2.nupkg.sha512"
+    },
+    "Data.HashFunction.Core/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tZSrcFGoAppoGydWX78YnCEa3QQz1opo9HuALBhw9lvC4xz7Hq7NylWPYGoCY35QeCI5igmclfBxuU3wKgdsKQ==",
+      "path": "data.hashfunction.core/3.1.2",
+      "hashPath": "data.hashfunction.core.3.1.2.nupkg.sha512"
+    },
+    "Data.HashFunction.Interfaces/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e29yblWSBXJRoMeKL2jPjFmQvAX2CpAAHeq04f2V3A0u505UHA0Hz/W02RVlRhqS1Wd2b4zrDky2RjUmKRZm0A==",
+      "path": "data.hashfunction.interfaces/3.1.2",
+      "hashPath": "data.hashfunction.interfaces.3.1.2.nupkg.sha512"
+    },
+    "DouglasDwyer.CasCore/0.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fxBj6A+XzEhVPuenQFS1x8Mm4BTAKfdQJ4PqhuIn3QdRYTsdX6+MtHQSFnNJQ21RGaeuo5G6P15vDDwttZAhjg==",
+      "path": "douglasdwyer.cascore/0.2.1",
+      "hashPath": "douglasdwyer.cascore.0.2.1.nupkg.sha512"
+    },
+    "DouglasDwyer.JitIlVerification/0.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aBCC3lIboOWNSfTRqcC8EYc+mVbGfYjGoKTPj9QLW2TBOpmtaTSqmdNHdjqX2UdjqPJzTJH3Md0YnZfWcKvzMQ==",
+      "path": "douglasdwyer.jitilverification/0.1.3",
+      "hashPath": "douglasdwyer.jitilverification.0.1.3.nupkg.sha512"
+    },
+    "EasyCompressor/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BLSsDP72GzgvIZ2Z/VZKs5wqcTcC7Od2kfF5oSBvBf+Cd+E152yWAjpIf6C1JtNYPfvKYsz6ybmDvlPfj+QCfw==",
+      "path": "easycompressor/2.1.0",
+      "hashPath": "easycompressor.2.1.0.nupkg.sha512"
+    },
+    "EasyCompressor.LZ4/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yjOYKH7k4wzin2MGBA09IJDPTpjfKZfheHXeQnlHyzV5ckZjMQTY9i+zCQkE0z3qZZipOIIRdUDJ6YOz7ouUqg==",
+      "path": "easycompressor.lz4/2.1.0",
+      "hashPath": "easycompressor.lz4.2.1.0.nupkg.sha512"
+    },
+    "K4os.Compression.LZ4/1.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LhwlPa7c1zs1OV2XadMtAWdImjLIsqFJPoRcIWAadSRn0Ri1DepK65UbWLPmt4riLqx2d40xjXRk0ogpqNtK7g==",
+      "path": "k4os.compression.lz4/1.3.8",
+      "hashPath": "k4os.compression.lz4.1.3.8.nupkg.sha512"
+    },
+    "K4os.Compression.LZ4.Legacy/1.3.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xRwevzdEPnhtKrURA5c0HHSQqnzCaiCOM6GTawkZjs4L15IkdsOLwPB0d0J0Z7MTHxZFF/d0ddCqGUJNTiZffw==",
+      "path": "k4os.compression.lz4.legacy/1.3.6",
+      "hashPath": "k4os.compression.lz4.legacy.1.3.6.nupkg.sha512"
+    },
+    "K4os.Compression.LZ4.Streams/1.3.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P15qr8dZAeo9GvYbUIPEYFQ0MEJ0i5iqr37wsYeRC3la2uCldOoeCa6to0CZ1taiwxIV+Mk8NGuZi+4iWivK9w==",
+      "path": "k4os.compression.lz4.streams/1.3.8",
+      "hashPath": "k4os.compression.lz4.streams.1.3.8.nupkg.sha512"
+    },
+    "K4os.Hash.xxHash/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wp2F7BamQ2Q/7Hk834nV9vRQapgcr8kgv9Jvfm8J3D0IhDqZMMl+a2yxUq5ltJitvXvQfB8W6K4F4fCbw/P6YQ==",
+      "path": "k4os.hash.xxhash/1.0.8",
+      "hashPath": "k4os.hash.xxhash.1.0.8.nupkg.sha512"
+    },
+    "Konscious.Security.Cryptography.Argon2/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T+OAGwzYYXftahpOxO7J4xA5K6urxwGnWQf3M+Jpi+76Azv/0T3M5SuN+h7/QvXuiqNw3ZEZ5QqVLI5ygDAylw==",
+      "path": "konscious.security.cryptography.argon2/1.3.1",
+      "hashPath": "konscious.security.cryptography.argon2.1.3.1.nupkg.sha512"
+    },
+    "Konscious.Security.Cryptography.Blake2/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-odwOyzj/J/lHJZNwFWJGU/LRecBShupAJ2S8TQqZfhUe9niHzu/voBYK5wuVKsvSpzbfupKQYZguVyIk1sgOkQ==",
+      "path": "konscious.security.cryptography.blake2/1.1.1",
+      "hashPath": "konscious.security.cryptography.blake2.1.1.1.nupkg.sha512"
+    },
+    "Microsoft.DotNet.PlatformAbstractions/3.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jek4XYaQ/PGUwDKKhwR8K47Uh1189PFzMeLqO83mXrXQVIpARZCcfuDedH50YDTepBkfijCZN5U/vZi++erxtg==",
+      "path": "microsoft.dotnet.platformabstractions/3.1.6",
+      "hashPath": "microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UI0TQPVkS78bFdjkTodmkH0Fe8lXv9LnhGFKgKrsgUJ5a5FVdFRcgjIkBVLbGgdRhxWirxH/8IXUtEyYJx6GQg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.4",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyModel/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NSmDw3K0ozNDgShSIpsZcbFIzBX4w28nDag+TfaQujkXGazBm+lid5onlWoCBy4VsLxqnnKjEBbGSJVWJMf43g==",
+      "path": "microsoft.extensions.dependencymodel/8.0.0",
+      "hashPath": "microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
+    },
+    "Mono.Cecil/0.11.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f33RkDtZO8VlGXCtmQIviOtxgnUdym9xx/b1p9h91CRGOsJFxCFOFK1FDbVt1OCf1aWwYejUFa2MOQyFWTFjbA==",
+      "path": "mono.cecil/0.11.6",
+      "hashPath": "mono.cecil.0.11.6.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
+      "path": "newtonsoft.json/13.0.4",
+      "hashPath": "newtonsoft.json.13.0.4.nupkg.sha512"
+    },
+    "ServiceWire/5.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-shX+apJwyK1vBZRo6ayhVmrAOYa1BQtab3YHAbr89AZsUPwo35ra3v7EYz/squ2Bba3m6JLHnwA3euCTj6vqaw==",
+      "path": "servicewire/5.5.4",
+      "hashPath": "servicewire.5.5.4.nupkg.sha512"
+    },
+    "SharpDX/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3pv0LFMvfK/dv1qISJnn8xBeeT6R/FRvr0EV4KI2DGsL84Qlv6P7isWqxGyU0LCwlSVCJN3jgHJ4Bl0KI2PJww==",
+      "path": "sharpdx/4.2.0",
+      "hashPath": "sharpdx.4.2.0.nupkg.sha512"
+    },
+    "SharpDX.D3DCompiler/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rnsd6Ilp127xbXqhTit8WKFQUrXwWxqVGpglyWDNkIBCk0tWXNQEjrJpsl0KAObzyZaa33+EXAikLVt5fnd3GA==",
+      "path": "sharpdx.d3dcompiler/4.2.0",
+      "hashPath": "sharpdx.d3dcompiler.4.2.0.nupkg.sha512"
+    },
+    "SharpDX.Direct3D11/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oTm/iT5X/IIuJ8kNYP+DTC/MhBhqtRF5dbgPPFgLBdQv0BKzNTzXQQXd7SveBFjQg6hXEAJ2jGCAzNYvGFc9LA==",
+      "path": "sharpdx.direct3d11/4.2.0",
+      "hashPath": "sharpdx.direct3d11.4.2.0.nupkg.sha512"
+    },
+    "SharpDX.Direct3D12/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OU4/cKRcAbGe8ZJ4oTUCDKsL5mCoy6aLJ2axYlwjyB8h/Z1OR38vSeGpbPB3ZKPumIuuYrANIBWnJ8xfUK7RQw==",
+      "path": "sharpdx.direct3d12/4.2.0",
+      "hashPath": "sharpdx.direct3d12.4.2.0.nupkg.sha512"
+    },
+    "SharpDX.DXGI/4.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UjKqkgWc8U+SP+j3LBzFP6OB6Ntapjih7Xo+g1rLcsGbIb5KwewBrBChaUu7sil8rWoeVU/k0EJd3SMN4VqNZw==",
+      "path": "sharpdx.dxgi/4.2.0",
+      "hashPath": "sharpdx.dxgi.4.2.0.nupkg.sha512"
+    },
+    "Silk.NET.Core/2.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XbDilPmvsQIrvxZkeVCNNX3LyRtA3hN6UykAiyZjlu/JkYh68U3WQummpP+j7jsxlX8s/pOrrU3vbN8LnMl0VA==",
+      "path": "silk.net.core/2.22.0",
+      "hashPath": "silk.net.core.2.22.0.nupkg.sha512"
+    },
+    "Silk.NET.Maths/2.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W9b5UlUGCu5Ywb5f8ZyIWJ475ucY+mT/nEiSTo3JH098VxHaZS/02bYr9f29VWBaJhh3DwMkfxQvgTyXzTrHyw==",
+      "path": "silk.net.maths/2.22.0",
+      "hashPath": "silk.net.maths.2.22.0.nupkg.sha512"
+    },
+    "Silk.NET.OpenGL/2.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AmbtflPvaGWw7fHEHrcFTd54OTAj0bemzx4WV2ELJdW2NBPSvtyz31nhyuBVTml20+NtW4Z3yhDGUpM6uouVDQ==",
+      "path": "silk.net.opengl/2.22.0",
+      "hashPath": "silk.net.opengl.2.22.0.nupkg.sha512"
+    },
+    "Silk.NET.OpenGLES/2.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BB/kdhQyZ0l6O5Cw9e1OV8uZN1vibz8GdiLx0nx+bd9BrRxu8f2XIRnqmlPcsNw2/0J9Z6jgkDwL1iqaii0dTw==",
+      "path": "silk.net.opengles/2.22.0",
+      "hashPath": "silk.net.opengles.2.22.0.nupkg.sha512"
+    },
+    "Silk.NET.OpenGLES.Extensions.EXT/2.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vvnUYR5IvZr/C74ano9WhsWSkziQoOHRgCWQS1KHiCmyL4mJsLVyTUgSEqN0p/hYff7kiHZQxz4oLinZmj7geg==",
+      "path": "silk.net.opengles.extensions.ext/2.22.0",
+      "hashPath": "silk.net.opengles.extensions.ext.2.22.0.nupkg.sha512"
+    },
+    "Silk.NET.OpenXR/2.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2/+jpcJdUGAXFnUBTcVZTl6Q0NRCCrYuLH9cykezcxPvC+VumhrwsTd68d3KYh/9g4/+NHjr74UCTNyJgbBNXQ==",
+      "path": "silk.net.openxr/2.22.0",
+      "hashPath": "silk.net.openxr.2.22.0.nupkg.sha512"
+    },
+    "Silk.NET.OpenXR.Extensions.FB/2.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gkOOtB7ELzydRSm8fyuZG1vOS3+vtAoDMb5SzGmf+kwSMdKQOvR6erM7aaAvzrl1IfndpYSPCJDVb+LgNOfayg==",
+      "path": "silk.net.openxr.extensions.fb/2.22.0",
+      "hashPath": "silk.net.openxr.extensions.fb.2.22.0.nupkg.sha512"
+    },
+    "Silk.NET.SDL/2.22.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t73lM7RnEX7otXOblQ38zjDbGfdEseJKHGgIaFien9lKjGp1jg28RLEY+toUXT5kH0DzgXGIoYAs7AkcCFyyyg==",
+      "path": "silk.net.sdl/2.22.0",
+      "hashPath": "silk.net.sdl.2.22.0.nupkg.sha512"
+    },
+    "Stride/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/koNlyrqCcf8b9v/cWWxdxvAvOxNqDY0ttchqFx+cU3J5C+nvBGLZf5PUe9mthrlrn6W2sq52k7rLlq8Xa/9iA==",
+      "path": "stride/4.3.0.2507",
+      "hashPath": "stride.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Audio/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2NAT/I8xkAgsBM6Ci5hnz05ptG6PmS35zfGVly/Xbb1uHstRgpCZ/nc+oqzqwr7uKxi0HWVEI/XRUhLJk4mXxQ==",
+      "path": "stride.audio/4.3.0.2507",
+      "hashPath": "stride.audio.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.CommunityToolkit/1.0.0-preview.62": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UzYQkMjAPmkj95sNsqiCBhGwqjmGtyXDOeeMD04OdwvFDoXnaO6xkJOB+tVyKb4KwsQA4fydRWCuCPbvncFxww==",
+      "path": "stride.communitytoolkit/1.0.0-preview.62",
+      "hashPath": "stride.communitytoolkit.1.0.0-preview.62.nupkg.sha512"
+    },
+    "Stride.Core/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TTUQ2aaK//vnN1yKqsLkRpjaDX0MU/Bs7SnTKz9tRzBuTHxKzUSy8jpU3ZnmPLZAEMS+Yo3iZgFnYKQZkZ2l+w==",
+      "path": "stride.core/4.3.0.2507",
+      "hashPath": "stride.core.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Core.IO/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PAwUtV6qrOA5Vf4x2lk5KeGVUZbCpmgVKTq5XbfH8lUTaDuBcgB0RVk26MM9+OrULP9t2XkUvvzDri/maGcp5A==",
+      "path": "stride.core.io/4.3.0.2507",
+      "hashPath": "stride.core.io.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Core.Mathematics/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6eA15wpW8CAFjsfIoKsdNySbSv0Rg/88FAnt7pJRqOBwr1e3hUDrXpRxCbVY67uN//pAXPEc3oDdOWL+EuRlKA==",
+      "path": "stride.core.mathematics/4.3.0.2507",
+      "hashPath": "stride.core.mathematics.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Core.MicroThreading/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-joYhB6wnfSLQs9aDslm0novROpyTmzv/A2VMVg9KaSG1ey51NY8gZmJ0eS/B6sPhUfYV3TzO9zBmp4LOsoEy4w==",
+      "path": "stride.core.microthreading/4.3.0.2507",
+      "hashPath": "stride.core.microthreading.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Core.Serialization/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7Ss14aq3AgqvKB0wpoCa7iMPFcT1FJpfVJ4o1YxiIQRYO1+o8VYOPQ/hnTVzFBGLg41iX/kYYFYcd8Z9kdXTSw==",
+      "path": "stride.core.serialization/4.3.0.2507",
+      "hashPath": "stride.core.serialization.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Core.Shaders/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xzn8d4/wrzvfJtMlfL6s1d1mhLMIcHRuubycupATCySOlxjZzU3CF/XToGgrXSNUuZ7ZuYOoHuGatr79WwHPyw==",
+      "path": "stride.core.shaders/4.3.0.2507",
+      "hashPath": "stride.core.shaders.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Engine/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Gw1Sav8Su5VqWsFqX+L3RtPRUjgHTDFNEDntv+HGz6MtZjvVpV1gDCsupfMdZ49rkdGVUHHH7l4jzjZaqOnzSw==",
+      "path": "stride.engine/4.3.0.2507",
+      "hashPath": "stride.engine.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Games/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N3VbyJONCfu0WrCTtX5VIlXNPGETAoI5Wk49mj66OXTH06JalgVzSNMerRrjhzzXZBsCYtwCjeANngZ8bLlMGw==",
+      "path": "stride.games/4.3.0.2507",
+      "hashPath": "stride.games.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Graphics/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eOdPNVAy3+cZ3DXfMp4xhtkF8B6P1Q86I+qjTFIjA7dShCfRtbdzvLGssrOV/bBu6mpJyWo1ZxSGKiDWbQ+8Ng==",
+      "path": "stride.graphics/4.3.0.2507",
+      "hashPath": "stride.graphics.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Input/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ioDH6Dzeu0PHsHmJfPYjvqrYkfzIZ95ONxAkc97Rd93xReYsw/1Mecny13CeBcGwPtCkoH9ME/8/eJAOoNUWAA==",
+      "path": "stride.input/4.3.0.2507",
+      "hashPath": "stride.input.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Irony/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jENBdEsZNJWJBekFaHwwDfISOu9sp++B4ZFgUNGxfZqxrZ3JKgt1JjpAxukKnX/5J0ZFGbZ/TbBmHD1K8b7WZw==",
+      "path": "stride.irony/4.3.0.2507",
+      "hashPath": "stride.irony.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Native/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KYGx1Jv4pIiN1yFMN4M0r+a1TcB7yFMV9dJoFYaAtrpNIUB5pd31YZDOKqim3ZzYkqVj9LkSlqrAd1+wOTPXGQ==",
+      "path": "stride.native/4.3.0.2507",
+      "hashPath": "stride.native.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Particles/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9Krj+Og9cb4lGzsN5BO1JAEdGNORM01F59xOb0x3Hxp1J8SzayvQ/NgehCg9LdMIO2S9/rhp2JZ19yymi86f9Q==",
+      "path": "stride.particles/4.3.0.2507",
+      "hashPath": "stride.particles.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Physics/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FQo5H/mLehxAeT3256tkURx4eR406D9mP0MhSno+eX2ld2EyfZqhIJH3hGoRuEKbORBDEEFoEw5XAf+IrjHZZQ==",
+      "path": "stride.physics/4.3.0.2507",
+      "hashPath": "stride.physics.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Rendering/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UtC/QLcLpY6k5BOmV6XGAS+ZkxgOXG/18xHPyUqB0ZLrXdLgmfBAa/eK4GPu14uSoOTEiqi4orq+M8/iP3GDNA==",
+      "path": "stride.rendering/4.3.0.2507",
+      "hashPath": "stride.rendering.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Shaders/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MHaX24XCtPCyE3Ws9cEreyCLcPX8yz+sOTAdCCRm97o53UGp2xZeFPMzbFZDKyA5RIIny0Pah5PpbcI6/IRKfw==",
+      "path": "stride.shaders/4.3.0.2507",
+      "hashPath": "stride.shaders.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Shaders.Compiler/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bP6We1U4G5FPmB5OXJ6MmtdkCvhklNlOwUhlAZOwaDB+PS7GLJLLjTzWTGwaEyAZK9ySQU4YeefG5qX7wZqBxg==",
+      "path": "stride.shaders.compiler/4.3.0.2507",
+      "hashPath": "stride.shaders.compiler.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.Shaders.Parser/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2UTc3bA3Q/aWAVJRns4sWjDk2NUkfpPpzPDsq7758KYxt8L+X3zIZo9Gf7fxd/iBVxxzTKT6FTX4uweiAar9oA==",
+      "path": "stride.shaders.parser/4.3.0.2507",
+      "hashPath": "stride.shaders.parser.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.SharpFont/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1jD06aJxJDwpGNChiLSnDYFYif9/P+23Xjpdhdwet5DcDCpvUNMo4s/QmFotmH09MoI/RC2JQl5/TtVeFMGdPQ==",
+      "path": "stride.sharpfont/1.0.1",
+      "hashPath": "stride.sharpfont.1.0.1.nupkg.sha512"
+    },
+    "Stride.UI/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o4MvH23zL3tuOe2LzyL88BWYWCeJ9fzm13pbcfnzxS/vn7dg6ri5PENgJcQTPPpZ14mwnpA1cunsv82iLfCziA==",
+      "path": "stride.ui/4.3.0.2507",
+      "hashPath": "stride.ui.4.3.0.2507.nupkg.sha512"
+    },
+    "Stride.VirtualReality/4.3.0.2507": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0XLsbFKObxZt1A/KsQrpnNR7jYzPkYwchBy4O/IvQ9tOmQrqhZwIa+cKXeGGkyhT9VlFqKY7LxqpellMnRUUHw==",
+      "path": "stride.virtualreality/4.3.0.2507",
+      "hashPath": "stride.virtualreality.4.3.0.2507.nupkg.sha512"
+    },
+    "System.Data.HashFunction.Interfaces/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ESxg15JHcRWXfRgzVUF8FhRZ1xAuXo6zgaL4kCdB9DV2cnrAwRGiycCMlMsfOLXOMrkHZZbcBuKlO8pyxDCCOg==",
+      "path": "system.data.hashfunction.interfaces/2.0.0",
+      "hashPath": "system.data.hashfunction.interfaces.2.0.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x0rAZECxIGx/YVjN28YRdpqka0+H7YMN9741FUDzipXPDzesd60gef/LI0ZCOcYSDsacTLTHvMAvxHG+TjbNNQ==",
+      "path": "system.drawing.common/8.0.1",
+      "hashPath": "system.drawing.common.8.0.1.nupkg.sha512"
+    },
+    "Ultz.Native.SDL/2.30.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-akI6qe9zjA3T9Y5421cfHYKonIkV1rSr3Dgo5qOwxthXXRwTVsnJwb/Ap2x6/6BZcbhczeY+4aUw+2FYJF9LYw==",
+      "path": "ultz.native.sdl/2.30.8",
+      "hashPath": "ultz.native.sdl.2.30.8.nupkg.sha512"
+    },
+    "Vortice.Vulkan/2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+FQellDgWFtw2sHE9IkO6PusEjTilk48VtyWyDM6iHnCZJDlYMgxvCeenUlu15KK1xWIeGRaDF2GMKOFc2mS8g==",
+      "path": "vortice.vulkan/2.1.2",
+      "hashPath": "vortice.vulkan.2.1.2.nupkg.sha512"
+    },
+    "PariahCybersecurity/1.0.0.1": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

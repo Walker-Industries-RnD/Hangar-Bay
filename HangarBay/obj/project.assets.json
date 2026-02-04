@@ -1,0 +1,3938 @@
+{
+  "version": 3,
+  "targets": {
+    "net10.0": {
+      "BouncyCastle.NetCore/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Ceras/4.1.7": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Ceras.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ceras.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Data.HashFunction.Blake3/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Data.HashFunction.Core": "3.1.2",
+          "Data.HashFunction.Interfaces": "3.1.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Data.HashFunction.Blake3.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Data.HashFunction.Blake3.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libblake3_dotnet.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libblake3_dotnet.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libblake3_dotnet.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-arm64/native/libblake3_dotnet.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libblake3_dotnet.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm64/native/blake3_dotnet.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/blake3_dotnet.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/blake3_dotnet.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Data.HashFunction.Core/3.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Data.HashFunction.Interfaces": "3.1.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/Data.HashFunction.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Data.HashFunction.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Data.HashFunction.Interfaces/3.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Data.HashFunction.Interfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Data.HashFunction.Interfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DouglasDwyer.CasCore/0.2.1": {
+        "type": "package",
+        "dependencies": {
+          "DouglasDwyer.JitIlVerification": "0.1.3",
+          "Mono.Cecil": "0.11.6"
+        },
+        "compile": {
+          "lib/net8.0/CasCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/CasCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "DouglasDwyer.JitIlVerification/0.1.3": {
+        "type": "package",
+        "dependencies": {
+          "Mono.Cecil": "0.11.6"
+        },
+        "compile": {
+          "lib/net8.0/JitIlVerification.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/JitIlVerification.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "EasyCompressor/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.4"
+        },
+        "compile": {
+          "lib/net9.0/EasyCompressor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/EasyCompressor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "EasyCompressor.LZ4/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "EasyCompressor": "2.1.0",
+          "K4os.Compression.LZ4": "1.3.8",
+          "K4os.Compression.LZ4.Streams": "1.3.8"
+        },
+        "compile": {
+          "lib/net9.0/EasyCompressor.LZ4.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/EasyCompressor.LZ4.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "K4os.Compression.LZ4/1.3.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/K4os.Compression.LZ4.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/K4os.Compression.LZ4.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "K4os.Compression.LZ4.Legacy/1.3.6": {
+        "type": "package",
+        "dependencies": {
+          "K4os.Compression.LZ4": "1.3.6"
+        },
+        "compile": {
+          "lib/net5.0/K4os.Compression.LZ4.Legacy.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/K4os.Compression.LZ4.Legacy.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "K4os.Compression.LZ4.Streams/1.3.8": {
+        "type": "package",
+        "dependencies": {
+          "K4os.Compression.LZ4": "1.3.8",
+          "K4os.Hash.xxHash": "1.0.8"
+        },
+        "compile": {
+          "lib/net6.0/K4os.Compression.LZ4.Streams.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/K4os.Compression.LZ4.Streams.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "K4os.Hash.xxHash/1.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/K4os.Hash.xxHash.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/K4os.Hash.xxHash.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Konscious.Security.Cryptography.Argon2/1.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Konscious.Security.Cryptography.Blake2": "1.1.1"
+        },
+        "compile": {
+          "lib/net8.0/Konscious.Security.Cryptography.Argon2.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Konscious.Security.Cryptography.Argon2.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Konscious.Security.Cryptography.Blake2/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Konscious.Security.Cryptography.Blake2.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Konscious.Security.Cryptography.Blake2.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.DotNet.PlatformAbstractions/3.1.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyModel/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyModel.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/7.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Mono.Cecil/0.11.6": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.dll": {
+            "related": ".Mdb.pdb;.pdb;.Pdb.pdb;.Rocks.pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
+            "related": ".pdb"
+          },
+          "lib/netstandard2.0/Mono.Cecil.dll": {
+            "related": ".Mdb.pdb;.pdb;.Pdb.pdb;.Rocks.pdb"
+          }
+        }
+      },
+      "NETStandard.Library/1.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ServiceWire/5.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ServiceWire.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ServiceWire.dll": {}
+        }
+      },
+      "SharpDX/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/SharpDX.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "SharpDX.D3DCompiler/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/netstandard1.1/SharpDX.D3DCompiler.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.D3DCompiler.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SharpDX.Direct3D11/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/netstandard1.1/SharpDX.Direct3D11.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.Direct3D11.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SharpDX.Direct3D12/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/netstandard1.1/SharpDX.Direct3D12.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.Direct3D12.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "SharpDX.DXGI/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1",
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/netstandard1.1/SharpDX.DXGI.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/SharpDX.DXGI.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Silk.NET.Core/2.22.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.DotNet.PlatformAbstractions": "3.1.6",
+          "Microsoft.Extensions.DependencyModel": "8.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Silk.NET.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Silk.NET.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Silk.NET.Maths/2.22.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Silk.NET.Maths.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Silk.NET.Maths.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Silk.NET.OpenGL/2.22.0": {
+        "type": "package",
+        "dependencies": {
+          "Silk.NET.Core": "2.22.0",
+          "Silk.NET.Maths": "2.22.0"
+        },
+        "compile": {
+          "lib/net5.0/Silk.NET.OpenGL.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Silk.NET.OpenGL.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Silk.NET.OpenGLES/2.22.0": {
+        "type": "package",
+        "dependencies": {
+          "Silk.NET.Core": "2.22.0",
+          "Silk.NET.Maths": "2.22.0"
+        },
+        "compile": {
+          "lib/net5.0/Silk.NET.OpenGLES.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Silk.NET.OpenGLES.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Silk.NET.OpenGLES.Extensions.EXT/2.22.0": {
+        "type": "package",
+        "dependencies": {
+          "Silk.NET.Core": "2.22.0",
+          "Silk.NET.OpenGLES": "2.22.0"
+        },
+        "compile": {
+          "lib/net5.0/Silk.NET.OpenGLES.Extensions.EXT.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Silk.NET.OpenGLES.Extensions.EXT.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Silk.NET.OpenXR/2.22.0": {
+        "type": "package",
+        "dependencies": {
+          "Silk.NET.Core": "2.22.0",
+          "Silk.NET.Maths": "2.22.0"
+        },
+        "compile": {
+          "lib/net5.0/Silk.NET.OpenXR.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Silk.NET.OpenXR.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Silk.NET.OpenXR.Extensions.FB/2.22.0": {
+        "type": "package",
+        "dependencies": {
+          "Silk.NET.Core": "2.22.0",
+          "Silk.NET.OpenXR": "2.22.0"
+        },
+        "compile": {
+          "lib/net5.0/Silk.NET.OpenXR.Extensions.FB.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Silk.NET.OpenXR.Extensions.FB.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Silk.NET.SDL/2.22.0": {
+        "type": "package",
+        "dependencies": {
+          "Silk.NET.Core": "2.22.0",
+          "Silk.NET.Maths": "2.22.0",
+          "Ultz.Native.SDL": "2.30.8"
+        },
+        "compile": {
+          "lib/net6.0/Silk.NET.SDL.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Silk.NET.SDL.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/Silk.NET.SDL.targets": {}
+        }
+      },
+      "Stride/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride.Core.Mathematics": "4.3.0.2507",
+          "Stride.Core.Serialization": "4.3.0.2507",
+          "System.Drawing.Common": "8.0.1"
+        },
+        "compile": {
+          "lib/net10.0/Stride.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        }
+      },
+      "Stride.Audio/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride": "4.3.0.2507",
+          "Stride.Native": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Audio.dll": {
+            "related": ".pdb;.ssdeps;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Audio.dll": {
+            "related": ".pdb;.ssdeps;.usrdoc;.xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libstrideaudio.so": {
+            "assetType": "native",
+            "rid": "android-arm"
+          },
+          "runtimes/android-arm64/native/libstrideaudio.so": {
+            "assetType": "native",
+            "rid": "android-arm64"
+          },
+          "runtimes/android-x64/native/libstrideaudio.so": {
+            "assetType": "native",
+            "rid": "android-x64"
+          },
+          "runtimes/android-x86/native/libstrideaudio.so": {
+            "assetType": "native",
+            "rid": "android-x86"
+          },
+          "runtimes/ios/native/libCelt.a": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/libNativePath.a": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/libstrideaudio.a": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/linux-x64/native/libstrideaudio.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libstrideaudio.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm64/native/libstrideaudio.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/libstrideaudio.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libstrideaudio.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Stride.CommunityToolkit/1.0.0-preview.62": {
+        "type": "package",
+        "dependencies": {
+          "Stride.Engine": "4.3.0.2507",
+          "Stride.Particles": "4.3.0.2507",
+          "Stride.Physics": "4.3.0.2507",
+          "Stride.UI": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.CommunityToolkit.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.CommunityToolkit.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Stride.Core/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "7.0.4",
+          "ServiceWire": "5.5.4",
+          "System.ValueTuple": "4.6.1"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Core.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Core.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Stride.Core.props": {},
+          "buildTransitive/Stride.Core.targets": {}
+        }
+      },
+      "Stride.Core.IO/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride.Core": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Core.IO.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Core.IO.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        }
+      },
+      "Stride.Core.Mathematics/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride.Core": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Core.Mathematics.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Core.Mathematics.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        }
+      },
+      "Stride.Core.MicroThreading/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride.Core": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Core.MicroThreading.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Core.MicroThreading.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        }
+      },
+      "Stride.Core.Serialization/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "K4os.Compression.LZ4.Legacy": "1.3.6",
+          "Stride.Core.IO": "4.3.0.2507",
+          "Stride.Core.MicroThreading": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Core.Serialization.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Core.Serialization.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        }
+      },
+      "Stride.Core.Shaders/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride.Core": "4.3.0.2507",
+          "Stride.Irony": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/CppNet.dll": {},
+          "lib/net10.0/Stride.Core.Shaders.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/CppNet.dll": {},
+          "lib/net10.0/Stride.Core.Shaders.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        }
+      },
+      "Stride.Engine/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride.Audio": "4.3.0.2507",
+          "Stride.Rendering": "4.3.0.2507",
+          "Stride.Shaders.Compiler": "4.3.0.2507",
+          "Stride.VirtualReality": "4.3.0.2507",
+          "System.ValueTuple": "4.6.1"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Engine.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Engine.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        }
+      },
+      "Stride.Games/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride.Graphics": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Games.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Games.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        }
+      },
+      "Stride.Graphics/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.Direct3D11": "4.2.0",
+          "SharpDX.Direct3D12": "4.2.0",
+          "Silk.NET.OpenGL": "2.22.0",
+          "Silk.NET.OpenGLES": "2.22.0",
+          "Silk.NET.OpenGLES.Extensions.EXT": "2.22.0",
+          "Silk.NET.Sdl": "2.22.0",
+          "Stride": "4.3.0.2507",
+          "Stride.Shaders": "4.3.0.2507",
+          "Stride.SharpFont": "1.0.1",
+          "Vortice.Vulkan": "2.1.2"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Graphics.dll": {
+            "related": ".pdb;.ssdeps;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Graphics.dll": {
+            "related": ".pdb;.ssdeps;.usrdoc;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/Stride.Graphics.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libfreetype.so": {
+            "assetType": "native",
+            "rid": "android-arm"
+          },
+          "runtimes/android-arm64/native/libfreetype.so": {
+            "assetType": "native",
+            "rid": "android-arm64"
+          },
+          "runtimes/android-x64/native/libfreetype.so": {
+            "assetType": "native",
+            "rid": "android-x64"
+          },
+          "runtimes/android-x86/native/libfreetype.so": {
+            "assetType": "native",
+            "rid": "android-x86"
+          },
+          "runtimes/osx-x64/native/libfreetype.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libvulkan.1.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm64/native/freetype.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/freetype.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/freetype.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Stride.Input/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride.Games": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Input.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Input.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        }
+      },
+      "Stride.Irony/4.3.0.2507": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Stride.Irony.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Irony.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Stride.Native/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride.Core.Mathematics": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Native.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Native.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        }
+      },
+      "Stride.Particles/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride.Engine": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Particles.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Particles.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        }
+      },
+      "Stride.Physics/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride.Engine": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/BulletSharp.NetStandard.dll": {},
+          "lib/net10.0/Stride.Physics.dll": {
+            "related": ".pdb;.ssdeps;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/BulletSharp.NetStandard.dll": {},
+          "lib/net10.0/Stride.Physics.dll": {
+            "related": ".pdb;.ssdeps;.usrdoc;.xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libbulletc.so": {
+            "assetType": "native",
+            "rid": "android-arm"
+          },
+          "runtimes/android-arm64/native/libbulletc.so": {
+            "assetType": "native",
+            "rid": "android-arm64"
+          },
+          "runtimes/android-x64/native/libbulletc.so": {
+            "assetType": "native",
+            "rid": "android-x64"
+          },
+          "runtimes/android-x86/native/libbulletc.so": {
+            "assetType": "native",
+            "rid": "android-x86"
+          },
+          "runtimes/linux-x64/native/libbulletc.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libbulletc.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm64/native/libbulletc.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/libbulletc.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libbulletc.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Stride.Rendering/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride.Games": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Rendering.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Rendering.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        }
+      },
+      "Stride.Shaders/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Shaders.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Shaders.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        }
+      },
+      "Stride.Shaders.Compiler/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX.D3DCompiler": "4.2.0",
+          "Stride.Shaders.Parser": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Shaders.Compiler.dll": {
+            "related": ".pdb;.ssdeps;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Shaders.Compiler.dll": {
+            "related": ".pdb;.ssdeps;.usrdoc;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/d3dcompiler_47.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/d3dcompiler_47.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/d3dcompiler_47.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Stride.Shaders.Parser/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride.Core.Shaders": "4.3.0.2507",
+          "Stride.Shaders": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.Shaders.Parser.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.Shaders.Parser.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        }
+      },
+      "Stride.SharpFont/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/SharpFont.dll": {
+            "related": ".dll.config"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/SharpFont.dll": {
+            "related": ".dll.config"
+          }
+        }
+      },
+      "Stride.UI/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Stride.Engine": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.UI.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.UI.dll": {
+            "related": ".pdb;.usrdoc;.xml"
+          }
+        }
+      },
+      "Stride.VirtualReality/4.3.0.2507": {
+        "type": "package",
+        "dependencies": {
+          "Silk.NET.OpenXR": "2.22.0",
+          "Silk.NET.OpenXR.Extensions.FB": "2.22.0",
+          "Stride.Games": "4.3.0.2507",
+          "Stride.Graphics": "4.3.0.2507",
+          "Stride.Input": "4.3.0.2507"
+        },
+        "compile": {
+          "lib/net10.0/Stride.VirtualReality.dll": {
+            "related": ".pdb;.ssdeps;.usrdoc;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Stride.VirtualReality.dll": {
+            "related": ".pdb;.ssdeps;.usrdoc;.xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/android-arm/native/libstridevr.so": {
+            "assetType": "native",
+            "rid": "android-arm"
+          },
+          "runtimes/android-arm64/native/libstridevr.so": {
+            "assetType": "native",
+            "rid": "android-arm64"
+          },
+          "runtimes/android-x64/native/libstridevr.so": {
+            "assetType": "native",
+            "rid": "android-x64"
+          },
+          "runtimes/android-x86/native/libstridevr.so": {
+            "assetType": "native",
+            "rid": "android-x86"
+          },
+          "runtimes/ios/native/libNativePath.a": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/ios/native/libstridevr.a": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/linux-x64/native/libstridevr.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libstridevr.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/libstridevr.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/openvr_api.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/openxr_loader.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libstridevr.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/openvr_api.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "System.Data.HashFunction.Interfaces/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.1/System.Data.HashFunction.Interfaces.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/System.Data.HashFunction.Interfaces.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.ValueTuple/4.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Ultz.Native.SDL/2.30.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "build": {
+          "buildTransitive/netstandard2.0/Ultz.Native.SDL.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/ios/native/libSDL2.a": {
+            "assetType": "native",
+            "rid": "ios"
+          },
+          "runtimes/iossimulator/native/libSDL2.a": {
+            "assetType": "native",
+            "rid": "iossimulator"
+          },
+          "runtimes/linux-arm/native/libSDL2-2.0.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libSDL2-2.0.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/libSDL2-2.0.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/libSDL2-2.0.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/tvos/native/libSDL2.a": {
+            "assetType": "native",
+            "rid": "tvos"
+          },
+          "runtimes/tvossimulator/native/libSDL2.a": {
+            "assetType": "native",
+            "rid": "tvossimulator"
+          },
+          "runtimes/win-arm64/native/SDL2.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/SDL2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/SDL2.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Vortice.Vulkan/2.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net9.0/Vortice.Vulkan.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Vortice.Vulkan.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BouncyCastle.NetCore/2.2.1": {
+      "sha512": "yfWn8JYPc4rkeM2kcsCqFVFOvwCuuQvIieGtQWcjoWxOioeznXQB3M/GmHgbCWbJjc8ycrwGhZaZPiasifYi4A==",
+      "type": "package",
+      "path": "bouncycastle.netcore/2.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bouncycastle.netcore.2.2.1.nupkg.sha512",
+        "bouncycastle.netcore.nuspec",
+        "lib/net45/BouncyCastle.Crypto.dll",
+        "lib/net45/BouncyCastle.Crypto.xml",
+        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "lib/netstandard2.0/BouncyCastle.Crypto.xml"
+      ]
+    },
+    "Ceras/4.1.7": {
+      "sha512": "5hKNZAySyylTKELWfnLAFDG9A23Osp0Yqonpnmv2/MPqcVJjMC6/N/5EKJHYmMaw2xnLL8kiQaCe6Fu+tjNG/w==",
+      "type": "package",
+      "path": "ceras/4.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ceras.4.1.7.nupkg.sha512",
+        "ceras.nuspec",
+        "lib/net45/Ceras.dll",
+        "lib/net45/Ceras.pdb",
+        "lib/net45/Ceras.xml",
+        "lib/net47/Ceras.dll",
+        "lib/net47/Ceras.pdb",
+        "lib/net47/Ceras.xml",
+        "lib/netstandard2.0/Ceras.dll",
+        "lib/netstandard2.0/Ceras.pdb",
+        "lib/netstandard2.0/Ceras.xml"
+      ]
+    },
+    "Data.HashFunction.Blake3/3.1.2": {
+      "sha512": "lSwfOGH6e5BN4nJv+8X+v+vf1kqWFxKbpnk+1vCBx57veX2YxljgK2N/Og5PJ7VOF5ahLRoxBPk+wwu9yDwvhw==",
+      "type": "package",
+      "path": "data.hashfunction.blake3/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "data.hashfunction.blake3.3.1.2.nupkg.sha512",
+        "data.hashfunction.blake3.nuspec",
+        "data_hashfunction_logo.png",
+        "lib/netstandard2.0/Data.HashFunction.Blake3.dll",
+        "lib/netstandard2.0/Data.HashFunction.Blake3.xml",
+        "runtimes/linux-arm/native/libblake3_dotnet.so",
+        "runtimes/linux-arm64/native/libblake3_dotnet.so",
+        "runtimes/linux-x64/native/libblake3_dotnet.so",
+        "runtimes/osx-arm64/native/libblake3_dotnet.dylib",
+        "runtimes/osx-x64/native/libblake3_dotnet.dylib",
+        "runtimes/win-arm64/native/blake3_dotnet.dll",
+        "runtimes/win-x64/native/blake3_dotnet.dll",
+        "runtimes/win-x86/native/blake3_dotnet.dll"
+      ]
+    },
+    "Data.HashFunction.Core/3.1.2": {
+      "sha512": "tZSrcFGoAppoGydWX78YnCEa3QQz1opo9HuALBhw9lvC4xz7Hq7NylWPYGoCY35QeCI5igmclfBxuU3wKgdsKQ==",
+      "type": "package",
+      "path": "data.hashfunction.core/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "data.hashfunction.core.3.1.2.nupkg.sha512",
+        "data.hashfunction.core.nuspec",
+        "data_hashfunction_logo.png",
+        "lib/netstandard2.0/Data.HashFunction.Core.dll",
+        "lib/netstandard2.0/Data.HashFunction.Core.xml"
+      ]
+    },
+    "Data.HashFunction.Interfaces/3.1.2": {
+      "sha512": "e29yblWSBXJRoMeKL2jPjFmQvAX2CpAAHeq04f2V3A0u505UHA0Hz/W02RVlRhqS1Wd2b4zrDky2RjUmKRZm0A==",
+      "type": "package",
+      "path": "data.hashfunction.interfaces/3.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "data.hashfunction.interfaces.3.1.2.nupkg.sha512",
+        "data.hashfunction.interfaces.nuspec",
+        "data_hashfunction_logo.png",
+        "lib/netstandard2.0/Data.HashFunction.Interfaces.dll",
+        "lib/netstandard2.0/Data.HashFunction.Interfaces.xml"
+      ]
+    },
+    "DouglasDwyer.CasCore/0.2.1": {
+      "sha512": "fxBj6A+XzEhVPuenQFS1x8Mm4BTAKfdQJ4PqhuIn3QdRYTsdX6+MtHQSFnNJQ21RGaeuo5G6P15vDDwttZAhjg==",
+      "type": "package",
+      "path": "douglasdwyer.cascore/0.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "douglasdwyer.cascore.0.2.1.nupkg.sha512",
+        "douglasdwyer.cascore.nuspec",
+        "lib/net8.0/CasCore.dll",
+        "lib/net8.0/CasCore.xml"
+      ]
+    },
+    "DouglasDwyer.JitIlVerification/0.1.3": {
+      "sha512": "aBCC3lIboOWNSfTRqcC8EYc+mVbGfYjGoKTPj9QLW2TBOpmtaTSqmdNHdjqX2UdjqPJzTJH3Md0YnZfWcKvzMQ==",
+      "type": "package",
+      "path": "douglasdwyer.jitilverification/0.1.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "douglasdwyer.jitilverification.0.1.3.nupkg.sha512",
+        "douglasdwyer.jitilverification.nuspec",
+        "lib/net8.0/JitIlVerification.dll",
+        "lib/net8.0/JitIlVerification.xml"
+      ]
+    },
+    "EasyCompressor/2.1.0": {
+      "sha512": "BLSsDP72GzgvIZ2Z/VZKs5wqcTcC7Od2kfF5oSBvBf+Cd+E152yWAjpIf6C1JtNYPfvKYsz6ybmDvlPfj+QCfw==",
+      "type": "package",
+      "path": "easycompressor/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EasyCompressor.png",
+        "README.md",
+        "easycompressor.2.1.0.nupkg.sha512",
+        "easycompressor.nuspec",
+        "lib/net462/EasyCompressor.dll",
+        "lib/net462/EasyCompressor.xml",
+        "lib/net6.0/EasyCompressor.dll",
+        "lib/net6.0/EasyCompressor.xml",
+        "lib/net7.0/EasyCompressor.dll",
+        "lib/net7.0/EasyCompressor.xml",
+        "lib/net8.0/EasyCompressor.dll",
+        "lib/net8.0/EasyCompressor.xml",
+        "lib/net9.0/EasyCompressor.dll",
+        "lib/net9.0/EasyCompressor.xml",
+        "lib/netstandard2.0/EasyCompressor.dll",
+        "lib/netstandard2.0/EasyCompressor.xml",
+        "lib/netstandard2.1/EasyCompressor.dll",
+        "lib/netstandard2.1/EasyCompressor.xml"
+      ]
+    },
+    "EasyCompressor.LZ4/2.1.0": {
+      "sha512": "yjOYKH7k4wzin2MGBA09IJDPTpjfKZfheHXeQnlHyzV5ckZjMQTY9i+zCQkE0z3qZZipOIIRdUDJ6YOz7ouUqg==",
+      "type": "package",
+      "path": "easycompressor.lz4/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EasyCompressor.png",
+        "README.md",
+        "easycompressor.lz4.2.1.0.nupkg.sha512",
+        "easycompressor.lz4.nuspec",
+        "lib/net462/EasyCompressor.LZ4.dll",
+        "lib/net462/EasyCompressor.LZ4.xml",
+        "lib/net6.0/EasyCompressor.LZ4.dll",
+        "lib/net6.0/EasyCompressor.LZ4.xml",
+        "lib/net7.0/EasyCompressor.LZ4.dll",
+        "lib/net7.0/EasyCompressor.LZ4.xml",
+        "lib/net8.0/EasyCompressor.LZ4.dll",
+        "lib/net8.0/EasyCompressor.LZ4.xml",
+        "lib/net9.0/EasyCompressor.LZ4.dll",
+        "lib/net9.0/EasyCompressor.LZ4.xml",
+        "lib/netstandard2.0/EasyCompressor.LZ4.dll",
+        "lib/netstandard2.0/EasyCompressor.LZ4.xml",
+        "lib/netstandard2.1/EasyCompressor.LZ4.dll",
+        "lib/netstandard2.1/EasyCompressor.LZ4.xml"
+      ]
+    },
+    "K4os.Compression.LZ4/1.3.8": {
+      "sha512": "LhwlPa7c1zs1OV2XadMtAWdImjLIsqFJPoRcIWAadSRn0Ri1DepK65UbWLPmt4riLqx2d40xjXRk0ogpqNtK7g==",
+      "type": "package",
+      "path": "k4os.compression.lz4/1.3.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "k4os.compression.lz4.1.3.8.nupkg.sha512",
+        "k4os.compression.lz4.nuspec",
+        "lib/net462/K4os.Compression.LZ4.dll",
+        "lib/net462/K4os.Compression.LZ4.xml",
+        "lib/net5.0/K4os.Compression.LZ4.dll",
+        "lib/net5.0/K4os.Compression.LZ4.xml",
+        "lib/net6.0/K4os.Compression.LZ4.dll",
+        "lib/net6.0/K4os.Compression.LZ4.xml",
+        "lib/netstandard2.0/K4os.Compression.LZ4.dll",
+        "lib/netstandard2.0/K4os.Compression.LZ4.xml",
+        "lib/netstandard2.1/K4os.Compression.LZ4.dll",
+        "lib/netstandard2.1/K4os.Compression.LZ4.xml"
+      ]
+    },
+    "K4os.Compression.LZ4.Legacy/1.3.6": {
+      "sha512": "xRwevzdEPnhtKrURA5c0HHSQqnzCaiCOM6GTawkZjs4L15IkdsOLwPB0d0J0Z7MTHxZFF/d0ddCqGUJNTiZffw==",
+      "type": "package",
+      "path": "k4os.compression.lz4.legacy/1.3.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "k4os.compression.lz4.legacy.1.3.6.nupkg.sha512",
+        "k4os.compression.lz4.legacy.nuspec",
+        "lib/net462/K4os.Compression.LZ4.Legacy.dll",
+        "lib/net462/K4os.Compression.LZ4.Legacy.xml",
+        "lib/net5.0/K4os.Compression.LZ4.Legacy.dll",
+        "lib/net5.0/K4os.Compression.LZ4.Legacy.xml",
+        "lib/netstandard2.0/K4os.Compression.LZ4.Legacy.dll",
+        "lib/netstandard2.0/K4os.Compression.LZ4.Legacy.xml",
+        "lib/netstandard2.1/K4os.Compression.LZ4.Legacy.dll",
+        "lib/netstandard2.1/K4os.Compression.LZ4.Legacy.xml"
+      ]
+    },
+    "K4os.Compression.LZ4.Streams/1.3.8": {
+      "sha512": "P15qr8dZAeo9GvYbUIPEYFQ0MEJ0i5iqr37wsYeRC3la2uCldOoeCa6to0CZ1taiwxIV+Mk8NGuZi+4iWivK9w==",
+      "type": "package",
+      "path": "k4os.compression.lz4.streams/1.3.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "k4os.compression.lz4.streams.1.3.8.nupkg.sha512",
+        "k4os.compression.lz4.streams.nuspec",
+        "lib/net462/K4os.Compression.LZ4.Streams.dll",
+        "lib/net462/K4os.Compression.LZ4.Streams.xml",
+        "lib/net5.0/K4os.Compression.LZ4.Streams.dll",
+        "lib/net5.0/K4os.Compression.LZ4.Streams.xml",
+        "lib/net6.0/K4os.Compression.LZ4.Streams.dll",
+        "lib/net6.0/K4os.Compression.LZ4.Streams.xml",
+        "lib/netstandard2.0/K4os.Compression.LZ4.Streams.dll",
+        "lib/netstandard2.0/K4os.Compression.LZ4.Streams.xml",
+        "lib/netstandard2.1/K4os.Compression.LZ4.Streams.dll",
+        "lib/netstandard2.1/K4os.Compression.LZ4.Streams.xml"
+      ]
+    },
+    "K4os.Hash.xxHash/1.0.8": {
+      "sha512": "Wp2F7BamQ2Q/7Hk834nV9vRQapgcr8kgv9Jvfm8J3D0IhDqZMMl+a2yxUq5ltJitvXvQfB8W6K4F4fCbw/P6YQ==",
+      "type": "package",
+      "path": "k4os.hash.xxhash/1.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "k4os.hash.xxhash.1.0.8.nupkg.sha512",
+        "k4os.hash.xxhash.nuspec",
+        "lib/net462/K4os.Hash.xxHash.dll",
+        "lib/net462/K4os.Hash.xxHash.xml",
+        "lib/net5.0/K4os.Hash.xxHash.dll",
+        "lib/net5.0/K4os.Hash.xxHash.xml",
+        "lib/net6.0/K4os.Hash.xxHash.dll",
+        "lib/net6.0/K4os.Hash.xxHash.xml",
+        "lib/netstandard2.0/K4os.Hash.xxHash.dll",
+        "lib/netstandard2.0/K4os.Hash.xxHash.xml",
+        "lib/netstandard2.1/K4os.Hash.xxHash.dll",
+        "lib/netstandard2.1/K4os.Hash.xxHash.xml"
+      ]
+    },
+    "Konscious.Security.Cryptography.Argon2/1.3.1": {
+      "sha512": "T+OAGwzYYXftahpOxO7J4xA5K6urxwGnWQf3M+Jpi+76Azv/0T3M5SuN+h7/QvXuiqNw3ZEZ5QqVLI5ygDAylw==",
+      "type": "package",
+      "path": "konscious.security.cryptography.argon2/1.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "konscious.security.cryptography.argon2.1.3.1.nupkg.sha512",
+        "konscious.security.cryptography.argon2.nuspec",
+        "lib/net46/Konscious.Security.Cryptography.Argon2.dll",
+        "lib/net46/Konscious.Security.Cryptography.Argon2.xml",
+        "lib/net6.0/Konscious.Security.Cryptography.Argon2.dll",
+        "lib/net6.0/Konscious.Security.Cryptography.Argon2.xml",
+        "lib/net8.0/Konscious.Security.Cryptography.Argon2.dll",
+        "lib/net8.0/Konscious.Security.Cryptography.Argon2.xml",
+        "lib/netstandard1.3/Konscious.Security.Cryptography.Argon2.dll",
+        "lib/netstandard1.3/Konscious.Security.Cryptography.Argon2.xml"
+      ]
+    },
+    "Konscious.Security.Cryptography.Blake2/1.1.1": {
+      "sha512": "odwOyzj/J/lHJZNwFWJGU/LRecBShupAJ2S8TQqZfhUe9niHzu/voBYK5wuVKsvSpzbfupKQYZguVyIk1sgOkQ==",
+      "type": "package",
+      "path": "konscious.security.cryptography.blake2/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "konscious.security.cryptography.blake2.1.1.1.nupkg.sha512",
+        "konscious.security.cryptography.blake2.nuspec",
+        "lib/net46/Konscious.Security.Cryptography.Blake2.dll",
+        "lib/net46/Konscious.Security.Cryptography.Blake2.xml",
+        "lib/net6.0/Konscious.Security.Cryptography.Blake2.dll",
+        "lib/net6.0/Konscious.Security.Cryptography.Blake2.xml",
+        "lib/net8.0/Konscious.Security.Cryptography.Blake2.dll",
+        "lib/net8.0/Konscious.Security.Cryptography.Blake2.xml",
+        "lib/netstandard1.3/Konscious.Security.Cryptography.Blake2.dll",
+        "lib/netstandard1.3/Konscious.Security.Cryptography.Blake2.xml"
+      ]
+    },
+    "Microsoft.DotNet.PlatformAbstractions/3.1.6": {
+      "sha512": "jek4XYaQ/PGUwDKKhwR8K47Uh1189PFzMeLqO83mXrXQVIpARZCcfuDedH50YDTepBkfijCZN5U/vZi++erxtg==",
+      "type": "package",
+      "path": "microsoft.dotnet.platformabstractions/3.1.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/Microsoft.DotNet.PlatformAbstractions.dll",
+        "lib/net45/Microsoft.DotNet.PlatformAbstractions.xml",
+        "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll",
+        "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.xml",
+        "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.dll",
+        "lib/netstandard2.0/Microsoft.DotNet.PlatformAbstractions.xml",
+        "microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
+        "microsoft.dotnet.platformabstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.4": {
+      "sha512": "UI0TQPVkS78bFdjkTodmkH0Fe8lXv9LnhGFKgKrsgUJ5a5FVdFRcgjIkBVLbGgdRhxWirxH/8IXUtEyYJx6GQg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyModel/8.0.0": {
+      "sha512": "NSmDw3K0ozNDgShSIpsZcbFIzBX4w28nDag+TfaQujkXGazBm+lid5onlWoCBy4VsLxqnnKjEBbGSJVWJMf43g==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencymodel/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyModel.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyModel.targets",
+        "lib/net462/Microsoft.Extensions.DependencyModel.dll",
+        "lib/net462/Microsoft.Extensions.DependencyModel.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyModel.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyModel.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyModel.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyModel.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyModel.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyModel.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyModel.xml",
+        "microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencymodel.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/7.0.4": {
+      "sha512": "yLEHlNN7O5WiND89r42sepgVwy5W/ZoTiFEdJDV7MHR1lW02LL7Nipz2TD5qM/Kx9W3/k3NP+PAP2qUdOm+leg==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/7.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.7.0.4.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "sha512": "9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Mono.Cecil/0.11.6": {
+      "sha512": "f33RkDtZO8VlGXCtmQIviOtxgnUdym9xx/b1p9h91CRGOsJFxCFOFK1FDbVt1OCf1aWwYejUFa2MOQyFWTFjbA==",
+      "type": "package",
+      "path": "mono.cecil/0.11.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Mono.Cecil.Mdb.dll",
+        "lib/net40/Mono.Cecil.Mdb.pdb",
+        "lib/net40/Mono.Cecil.Pdb.dll",
+        "lib/net40/Mono.Cecil.Pdb.pdb",
+        "lib/net40/Mono.Cecil.Rocks.dll",
+        "lib/net40/Mono.Cecil.Rocks.pdb",
+        "lib/net40/Mono.Cecil.dll",
+        "lib/net40/Mono.Cecil.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "lib/netstandard2.0/Mono.Cecil.Mdb.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "lib/netstandard2.0/Mono.Cecil.Pdb.pdb",
+        "lib/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "lib/netstandard2.0/Mono.Cecil.Rocks.pdb",
+        "lib/netstandard2.0/Mono.Cecil.dll",
+        "lib/netstandard2.0/Mono.Cecil.pdb",
+        "mono.cecil.0.11.6.nupkg.sha512",
+        "mono.cecil.nuspec"
+      ]
+    },
+    "NETStandard.Library/1.6.1": {
+      "sha512": "WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
+      "type": "package",
+      "path": "netstandard.library/1.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "netstandard.library.1.6.1.nupkg.sha512",
+        "netstandard.library.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.4": {
+      "sha512": "pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.4.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "ServiceWire/5.5.4": {
+      "sha512": "shX+apJwyK1vBZRo6ayhVmrAOYa1BQtab3YHAbr89AZsUPwo35ra3v7EYz/squ2Bba3m6JLHnwA3euCTj6vqaw==",
+      "type": "package",
+      "path": "servicewire/5.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "icon.png",
+        "lib/netstandard2.0/ServiceWire.dll",
+        "servicewire.5.5.4.nupkg.sha512",
+        "servicewire.nuspec"
+      ]
+    },
+    "SharpDX/4.2.0": {
+      "sha512": "3pv0LFMvfK/dv1qISJnn8xBeeT6R/FRvr0EV4KI2DGsL84Qlv6P7isWqxGyU0LCwlSVCJN3jgHJ4Bl0KI2PJww==",
+      "type": "package",
+      "path": "sharpdx/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/.xml",
+        "lib/net40/SharpDX.dll",
+        "lib/net40/SharpDX.pdb",
+        "lib/net45/.xml",
+        "lib/net45/SharpDX.dll",
+        "lib/net45/SharpDX.pdb",
+        "lib/netstandard1.1/.xml",
+        "lib/netstandard1.1/SharpDX.dll",
+        "lib/netstandard1.1/SharpDX.pdb",
+        "lib/uap10.0/.xml",
+        "lib/uap10.0/SharpDX.dll",
+        "lib/uap10.0/SharpDX.pdb",
+        "lib/uap10.0/SharpDX.pri",
+        "sharpdx.4.2.0.nupkg.sha512",
+        "sharpdx.nuspec"
+      ]
+    },
+    "SharpDX.D3DCompiler/4.2.0": {
+      "sha512": "Rnsd6Ilp127xbXqhTit8WKFQUrXwWxqVGpglyWDNkIBCk0tWXNQEjrJpsl0KAObzyZaa33+EXAikLVt5fnd3GA==",
+      "type": "package",
+      "path": "sharpdx.d3dcompiler/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.D3DCompiler.dll",
+        "lib/net40/SharpDX.D3DCompiler.pdb",
+        "lib/net40/SharpDX.D3DCompiler.xml",
+        "lib/net45/SharpDX.D3DCompiler.dll",
+        "lib/net45/SharpDX.D3DCompiler.pdb",
+        "lib/net45/SharpDX.D3DCompiler.xml",
+        "lib/netstandard1.1/SharpDX.D3DCompiler.dll",
+        "lib/netstandard1.1/SharpDX.D3DCompiler.pdb",
+        "lib/netstandard1.1/SharpDX.D3DCompiler.xml",
+        "lib/uap10.0/SharpDX.D3DCompiler.dll",
+        "lib/uap10.0/SharpDX.D3DCompiler.pdb",
+        "lib/uap10.0/SharpDX.D3DCompiler.pri",
+        "lib/uap10.0/SharpDX.D3DCompiler.xml",
+        "sharpdx.d3dcompiler.4.2.0.nupkg.sha512",
+        "sharpdx.d3dcompiler.nuspec"
+      ]
+    },
+    "SharpDX.Direct3D11/4.2.0": {
+      "sha512": "oTm/iT5X/IIuJ8kNYP+DTC/MhBhqtRF5dbgPPFgLBdQv0BKzNTzXQQXd7SveBFjQg6hXEAJ2jGCAzNYvGFc9LA==",
+      "type": "package",
+      "path": "sharpdx.direct3d11/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct3D11.dll",
+        "lib/net40/SharpDX.Direct3D11.pdb",
+        "lib/net40/SharpDX.Direct3D11.xml",
+        "lib/net45/SharpDX.Direct3D11.dll",
+        "lib/net45/SharpDX.Direct3D11.pdb",
+        "lib/net45/SharpDX.Direct3D11.xml",
+        "lib/netstandard1.1/SharpDX.Direct3D11.dll",
+        "lib/netstandard1.1/SharpDX.Direct3D11.pdb",
+        "lib/netstandard1.1/SharpDX.Direct3D11.xml",
+        "lib/uap10.0/SharpDX.Direct3D11.dll",
+        "lib/uap10.0/SharpDX.Direct3D11.pdb",
+        "lib/uap10.0/SharpDX.Direct3D11.pri",
+        "lib/uap10.0/SharpDX.Direct3D11.xml",
+        "sharpdx.direct3d11.4.2.0.nupkg.sha512",
+        "sharpdx.direct3d11.nuspec"
+      ]
+    },
+    "SharpDX.Direct3D12/4.2.0": {
+      "sha512": "OU4/cKRcAbGe8ZJ4oTUCDKsL5mCoy6aLJ2axYlwjyB8h/Z1OR38vSeGpbPB3ZKPumIuuYrANIBWnJ8xfUK7RQw==",
+      "type": "package",
+      "path": "sharpdx.direct3d12/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct3D12.dll",
+        "lib/net40/SharpDX.Direct3D12.pdb",
+        "lib/net40/SharpDX.Direct3D12.xml",
+        "lib/net45/SharpDX.Direct3D12.dll",
+        "lib/net45/SharpDX.Direct3D12.pdb",
+        "lib/net45/SharpDX.Direct3D12.xml",
+        "lib/netstandard1.1/SharpDX.Direct3D12.dll",
+        "lib/netstandard1.1/SharpDX.Direct3D12.pdb",
+        "lib/netstandard1.1/SharpDX.Direct3D12.xml",
+        "lib/uap10.0/SharpDX.Direct3D12.dll",
+        "lib/uap10.0/SharpDX.Direct3D12.pdb",
+        "lib/uap10.0/SharpDX.Direct3D12.pri",
+        "lib/uap10.0/SharpDX.Direct3D12.xml",
+        "sharpdx.direct3d12.4.2.0.nupkg.sha512",
+        "sharpdx.direct3d12.nuspec"
+      ]
+    },
+    "SharpDX.DXGI/4.2.0": {
+      "sha512": "UjKqkgWc8U+SP+j3LBzFP6OB6Ntapjih7Xo+g1rLcsGbIb5KwewBrBChaUu7sil8rWoeVU/k0EJd3SMN4VqNZw==",
+      "type": "package",
+      "path": "sharpdx.dxgi/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.DXGI.dll",
+        "lib/net40/SharpDX.DXGI.pdb",
+        "lib/net40/SharpDX.DXGI.xml",
+        "lib/net45/SharpDX.DXGI.dll",
+        "lib/net45/SharpDX.DXGI.pdb",
+        "lib/net45/SharpDX.DXGI.xml",
+        "lib/netstandard1.1/SharpDX.DXGI.dll",
+        "lib/netstandard1.1/SharpDX.DXGI.pdb",
+        "lib/netstandard1.1/SharpDX.DXGI.xml",
+        "lib/uap10.0/SharpDX.DXGI.dll",
+        "lib/uap10.0/SharpDX.DXGI.pdb",
+        "lib/uap10.0/SharpDX.DXGI.pri",
+        "lib/uap10.0/SharpDX.DXGI.xml",
+        "sharpdx.dxgi.4.2.0.nupkg.sha512",
+        "sharpdx.dxgi.nuspec"
+      ]
+    },
+    "Silk.NET.Core/2.22.0": {
+      "sha512": "XbDilPmvsQIrvxZkeVCNNX3LyRtA3hN6UykAiyZjlu/JkYh68U3WQummpP+j7jsxlX8s/pOrrU3vbN8LnMl0VA==",
+      "type": "package",
+      "path": "silk.net.core/2.22.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Silk.NET.Core.dll",
+        "lib/net5.0/Silk.NET.Core.xml",
+        "lib/net6.0/Silk.NET.Core.dll",
+        "lib/net6.0/Silk.NET.Core.xml",
+        "lib/netcoreapp3.1/Silk.NET.Core.dll",
+        "lib/netcoreapp3.1/Silk.NET.Core.xml",
+        "lib/netstandard2.0/Silk.NET.Core.dll",
+        "lib/netstandard2.0/Silk.NET.Core.xml",
+        "lib/netstandard2.1/Silk.NET.Core.dll",
+        "lib/netstandard2.1/Silk.NET.Core.xml",
+        "silk.net.core.2.22.0.nupkg.sha512",
+        "silk.net.core.nuspec",
+        "silkdotnet_v3.png"
+      ]
+    },
+    "Silk.NET.Maths/2.22.0": {
+      "sha512": "W9b5UlUGCu5Ywb5f8ZyIWJ475ucY+mT/nEiSTo3JH098VxHaZS/02bYr9f29VWBaJhh3DwMkfxQvgTyXzTrHyw==",
+      "type": "package",
+      "path": "silk.net.maths/2.22.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Silk.NET.Maths.dll",
+        "lib/net5.0/Silk.NET.Maths.xml",
+        "lib/net6.0-android31.0/Silk.NET.Maths.dll",
+        "lib/net6.0-android31.0/Silk.NET.Maths.xml",
+        "lib/net6.0-ios16.1/Silk.NET.Maths.dll",
+        "lib/net6.0-ios16.1/Silk.NET.Maths.xml",
+        "lib/netcoreapp3.1/Silk.NET.Maths.dll",
+        "lib/netcoreapp3.1/Silk.NET.Maths.xml",
+        "lib/netstandard2.0/Silk.NET.Maths.dll",
+        "lib/netstandard2.0/Silk.NET.Maths.xml",
+        "lib/netstandard2.1/Silk.NET.Maths.dll",
+        "lib/netstandard2.1/Silk.NET.Maths.xml",
+        "silk.net.maths.2.22.0.nupkg.sha512",
+        "silk.net.maths.nuspec",
+        "silkdotnet_v3.png"
+      ]
+    },
+    "Silk.NET.OpenGL/2.22.0": {
+      "sha512": "AmbtflPvaGWw7fHEHrcFTd54OTAj0bemzx4WV2ELJdW2NBPSvtyz31nhyuBVTml20+NtW4Z3yhDGUpM6uouVDQ==",
+      "type": "package",
+      "path": "silk.net.opengl/2.22.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Silk.NET.OpenGL.dll",
+        "lib/net5.0/Silk.NET.OpenGL.xml",
+        "lib/netcoreapp3.1/Silk.NET.OpenGL.dll",
+        "lib/netcoreapp3.1/Silk.NET.OpenGL.xml",
+        "lib/netstandard2.0/Silk.NET.OpenGL.dll",
+        "lib/netstandard2.0/Silk.NET.OpenGL.xml",
+        "lib/netstandard2.1/Silk.NET.OpenGL.dll",
+        "lib/netstandard2.1/Silk.NET.OpenGL.xml",
+        "silk.net.opengl.2.22.0.nupkg.sha512",
+        "silk.net.opengl.nuspec",
+        "silkdotnet_v3.png"
+      ]
+    },
+    "Silk.NET.OpenGLES/2.22.0": {
+      "sha512": "BB/kdhQyZ0l6O5Cw9e1OV8uZN1vibz8GdiLx0nx+bd9BrRxu8f2XIRnqmlPcsNw2/0J9Z6jgkDwL1iqaii0dTw==",
+      "type": "package",
+      "path": "silk.net.opengles/2.22.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Silk.NET.OpenGLES.dll",
+        "lib/net5.0/Silk.NET.OpenGLES.xml",
+        "lib/netcoreapp3.1/Silk.NET.OpenGLES.dll",
+        "lib/netcoreapp3.1/Silk.NET.OpenGLES.xml",
+        "lib/netstandard2.0/Silk.NET.OpenGLES.dll",
+        "lib/netstandard2.0/Silk.NET.OpenGLES.xml",
+        "lib/netstandard2.1/Silk.NET.OpenGLES.dll",
+        "lib/netstandard2.1/Silk.NET.OpenGLES.xml",
+        "silk.net.opengles.2.22.0.nupkg.sha512",
+        "silk.net.opengles.nuspec",
+        "silkdotnet_v3.png"
+      ]
+    },
+    "Silk.NET.OpenGLES.Extensions.EXT/2.22.0": {
+      "sha512": "vvnUYR5IvZr/C74ano9WhsWSkziQoOHRgCWQS1KHiCmyL4mJsLVyTUgSEqN0p/hYff7kiHZQxz4oLinZmj7geg==",
+      "type": "package",
+      "path": "silk.net.opengles.extensions.ext/2.22.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Silk.NET.OpenGLES.Extensions.EXT.dll",
+        "lib/net5.0/Silk.NET.OpenGLES.Extensions.EXT.xml",
+        "lib/netcoreapp3.1/Silk.NET.OpenGLES.Extensions.EXT.dll",
+        "lib/netcoreapp3.1/Silk.NET.OpenGLES.Extensions.EXT.xml",
+        "lib/netstandard2.0/Silk.NET.OpenGLES.Extensions.EXT.dll",
+        "lib/netstandard2.0/Silk.NET.OpenGLES.Extensions.EXT.xml",
+        "lib/netstandard2.1/Silk.NET.OpenGLES.Extensions.EXT.dll",
+        "lib/netstandard2.1/Silk.NET.OpenGLES.Extensions.EXT.xml",
+        "silk.net.opengles.extensions.ext.2.22.0.nupkg.sha512",
+        "silk.net.opengles.extensions.ext.nuspec",
+        "silkdotnet_v3.png"
+      ]
+    },
+    "Silk.NET.OpenXR/2.22.0": {
+      "sha512": "2/+jpcJdUGAXFnUBTcVZTl6Q0NRCCrYuLH9cykezcxPvC+VumhrwsTd68d3KYh/9g4/+NHjr74UCTNyJgbBNXQ==",
+      "type": "package",
+      "path": "silk.net.openxr/2.22.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Silk.NET.OpenXR.dll",
+        "lib/net5.0/Silk.NET.OpenXR.xml",
+        "lib/netcoreapp3.1/Silk.NET.OpenXR.dll",
+        "lib/netcoreapp3.1/Silk.NET.OpenXR.xml",
+        "lib/netstandard2.0/Silk.NET.OpenXR.dll",
+        "lib/netstandard2.0/Silk.NET.OpenXR.xml",
+        "lib/netstandard2.1/Silk.NET.OpenXR.dll",
+        "lib/netstandard2.1/Silk.NET.OpenXR.xml",
+        "silk.net.openxr.2.22.0.nupkg.sha512",
+        "silk.net.openxr.nuspec",
+        "silkdotnet_v3.png"
+      ]
+    },
+    "Silk.NET.OpenXR.Extensions.FB/2.22.0": {
+      "sha512": "gkOOtB7ELzydRSm8fyuZG1vOS3+vtAoDMb5SzGmf+kwSMdKQOvR6erM7aaAvzrl1IfndpYSPCJDVb+LgNOfayg==",
+      "type": "package",
+      "path": "silk.net.openxr.extensions.fb/2.22.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Silk.NET.OpenXR.Extensions.FB.dll",
+        "lib/net5.0/Silk.NET.OpenXR.Extensions.FB.xml",
+        "lib/netcoreapp3.1/Silk.NET.OpenXR.Extensions.FB.dll",
+        "lib/netcoreapp3.1/Silk.NET.OpenXR.Extensions.FB.xml",
+        "lib/netstandard2.0/Silk.NET.OpenXR.Extensions.FB.dll",
+        "lib/netstandard2.0/Silk.NET.OpenXR.Extensions.FB.xml",
+        "lib/netstandard2.1/Silk.NET.OpenXR.Extensions.FB.dll",
+        "lib/netstandard2.1/Silk.NET.OpenXR.Extensions.FB.xml",
+        "silk.net.openxr.extensions.fb.2.22.0.nupkg.sha512",
+        "silk.net.openxr.extensions.fb.nuspec",
+        "silkdotnet_v3.png"
+      ]
+    },
+    "Silk.NET.SDL/2.22.0": {
+      "sha512": "t73lM7RnEX7otXOblQ38zjDbGfdEseJKHGgIaFien9lKjGp1jg28RLEY+toUXT5kH0DzgXGIoYAs7AkcCFyyyg==",
+      "type": "package",
+      "path": "silk.net.sdl/2.22.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/net6.0/Silk.NET.SDL.targets",
+        "buildTransitive/net6.0/Silk.NET.SDL.targets",
+        "lib/net5.0/Silk.NET.SDL.dll",
+        "lib/net5.0/Silk.NET.SDL.xml",
+        "lib/net6.0/Silk.NET.SDL.dll",
+        "lib/net6.0/Silk.NET.SDL.xml",
+        "lib/netcoreapp3.1/Silk.NET.SDL.dll",
+        "lib/netcoreapp3.1/Silk.NET.SDL.xml",
+        "lib/netstandard2.0/Silk.NET.SDL.dll",
+        "lib/netstandard2.0/Silk.NET.SDL.xml",
+        "lib/netstandard2.1/Silk.NET.SDL.dll",
+        "lib/netstandard2.1/Silk.NET.SDL.xml",
+        "silk.net.sdl.2.22.0.nupkg.sha512",
+        "silk.net.sdl.nuspec",
+        "silkdotnet_v3.png"
+      ]
+    },
+    "Stride/4.3.0.2507": {
+      "sha512": "/koNlyrqCcf8b9v/cWWxdxvAvOxNqDY0ttchqFx+cU3J5C+nvBGLZf5PUe9mthrlrn6W2sq52k7rLlq8Xa/9iA==",
+      "type": "package",
+      "path": "stride/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.dll",
+        "lib/net10.0-android36.0/Stride.pdb",
+        "lib/net10.0-android36.0/Stride.usrdoc",
+        "lib/net10.0-android36.0/Stride.xml",
+        "lib/net10.0-ios26.0/Stride.dll",
+        "lib/net10.0-ios26.0/Stride.pdb",
+        "lib/net10.0-ios26.0/Stride.usrdoc",
+        "lib/net10.0-ios26.0/Stride.xml",
+        "lib/net10.0/Stride.dll",
+        "lib/net10.0/Stride.pdb",
+        "lib/net10.0/Stride.usrdoc",
+        "lib/net10.0/Stride.xml",
+        "nuget-icon.png",
+        "stride.4.3.0.2507.nupkg.sha512",
+        "stride.nuspec"
+      ]
+    },
+    "Stride.Audio/4.3.0.2507": {
+      "sha512": "2NAT/I8xkAgsBM6Ci5hnz05ptG6PmS35zfGVly/Xbb1uHstRgpCZ/nc+oqzqwr7uKxi0HWVEI/XRUhLJk4mXxQ==",
+      "type": "package",
+      "path": "stride.audio/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.Audio.dll",
+        "lib/net10.0-android36.0/Stride.Audio.pdb",
+        "lib/net10.0-android36.0/Stride.Audio.ssdeps",
+        "lib/net10.0-android36.0/Stride.Audio.usrdoc",
+        "lib/net10.0-android36.0/Stride.Audio.xml",
+        "lib/net10.0-ios26.0/Stride.Audio.dll",
+        "lib/net10.0-ios26.0/Stride.Audio.pdb",
+        "lib/net10.0-ios26.0/Stride.Audio.ssdeps",
+        "lib/net10.0-ios26.0/Stride.Audio.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Audio.xml",
+        "lib/net10.0/Stride.Audio.dll",
+        "lib/net10.0/Stride.Audio.pdb",
+        "lib/net10.0/Stride.Audio.ssdeps",
+        "lib/net10.0/Stride.Audio.usrdoc",
+        "lib/net10.0/Stride.Audio.xml",
+        "nuget-icon.png",
+        "runtimes/android-arm/native/libstrideaudio.so",
+        "runtimes/android-arm64/native/libstrideaudio.so",
+        "runtimes/android-x64/native/libstrideaudio.so",
+        "runtimes/android-x86/native/libstrideaudio.so",
+        "runtimes/ios/native/libCelt.a",
+        "runtimes/ios/native/libNativePath.a",
+        "runtimes/ios/native/libstrideaudio.a",
+        "runtimes/linux-x64/native/libstrideaudio.so",
+        "runtimes/osx-x64/native/libstrideaudio.dylib",
+        "runtimes/win-arm64/native/libstrideaudio.dll",
+        "runtimes/win-x64/native/libstrideaudio.dll",
+        "runtimes/win-x86/native/libstrideaudio.dll",
+        "stride.audio.4.3.0.2507.nupkg.sha512",
+        "stride.audio.nuspec"
+      ]
+    },
+    "Stride.CommunityToolkit/1.0.0-preview.62": {
+      "sha512": "UzYQkMjAPmkj95sNsqiCBhGwqjmGtyXDOeeMD04OdwvFDoXnaO6xkJOB+tVyKb4KwsQA4fydRWCuCPbvncFxww==",
+      "type": "package",
+      "path": "stride.communitytoolkit/1.0.0-preview.62",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/Stride.CommunityToolkit.dll",
+        "lib/net10.0/Stride.CommunityToolkit.pdb",
+        "lib/net10.0/Stride.CommunityToolkit.xml",
+        "nuget-icon.png",
+        "stride.communitytoolkit.1.0.0-preview.62.nupkg.sha512",
+        "stride.communitytoolkit.nuspec",
+        "stride/Stride.CommunityToolkit.sdpkg"
+      ]
+    },
+    "Stride.Core/4.3.0.2507": {
+      "sha512": "TTUQ2aaK//vnN1yKqsLkRpjaDX0MU/Bs7SnTKz9tRzBuTHxKzUSy8jpU3ZnmPLZAEMS+Yo3iZgFnYKQZkZ2l+w==",
+      "type": "package",
+      "path": "stride.core/4.3.0.2507",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/Stride.Core.CompilerServices.dll",
+        "build/Stride.Core.props",
+        "build/Stride.Core.targets",
+        "buildTransitive/Stride.Core.props",
+        "buildTransitive/Stride.Core.targets",
+        "lib/net10.0-android36.0/Stride.Core.dll",
+        "lib/net10.0-android36.0/Stride.Core.pdb",
+        "lib/net10.0-android36.0/Stride.Core.usrdoc",
+        "lib/net10.0-android36.0/Stride.Core.xml",
+        "lib/net10.0-ios26.0/Stride.Core.dll",
+        "lib/net10.0-ios26.0/Stride.Core.pdb",
+        "lib/net10.0-ios26.0/Stride.Core.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Core.xml",
+        "lib/net10.0/Stride.Core.dll",
+        "lib/net10.0/Stride.Core.pdb",
+        "lib/net10.0/Stride.Core.usrdoc",
+        "lib/net10.0/Stride.Core.xml",
+        "nuget-icon.png",
+        "stride.core.4.3.0.2507.nupkg.sha512",
+        "stride.core.nuspec",
+        "tools/AssemblyProcessor/net10.0/Mono.Cecil.Mdb.dll",
+        "tools/AssemblyProcessor/net10.0/Mono.Cecil.Pdb.dll",
+        "tools/AssemblyProcessor/net10.0/Mono.Cecil.Rocks.dll",
+        "tools/AssemblyProcessor/net10.0/Mono.Cecil.dll",
+        "tools/AssemblyProcessor/net10.0/Mono.Options.dll",
+        "tools/AssemblyProcessor/net10.0/Stride.Core.AssemblyProcessor.deps.json",
+        "tools/AssemblyProcessor/net10.0/Stride.Core.AssemblyProcessor.dll",
+        "tools/AssemblyProcessor/net10.0/Stride.Core.AssemblyProcessor.dll.config",
+        "tools/AssemblyProcessor/net10.0/Stride.Core.AssemblyProcessor.dll.hash",
+        "tools/AssemblyProcessor/net10.0/Stride.Core.AssemblyProcessor.pdb",
+        "tools/AssemblyProcessor/net8.0/Mono.Cecil.Mdb.dll",
+        "tools/AssemblyProcessor/net8.0/Mono.Cecil.Pdb.dll",
+        "tools/AssemblyProcessor/net8.0/Mono.Cecil.Rocks.dll",
+        "tools/AssemblyProcessor/net8.0/Mono.Cecil.dll",
+        "tools/AssemblyProcessor/net8.0/Mono.Options.dll",
+        "tools/AssemblyProcessor/net8.0/Stride.Core.AssemblyProcessor.deps.json",
+        "tools/AssemblyProcessor/net8.0/Stride.Core.AssemblyProcessor.dll",
+        "tools/AssemblyProcessor/net8.0/Stride.Core.AssemblyProcessor.dll.config",
+        "tools/AssemblyProcessor/net8.0/Stride.Core.AssemblyProcessor.dll.hash",
+        "tools/AssemblyProcessor/net8.0/Stride.Core.AssemblyProcessor.pdb",
+        "tools/AssemblyProcessor/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "tools/AssemblyProcessor/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "tools/AssemblyProcessor/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "tools/AssemblyProcessor/netstandard2.0/Mono.Cecil.dll",
+        "tools/AssemblyProcessor/netstandard2.0/Mono.Options.dll",
+        "tools/AssemblyProcessor/netstandard2.0/Stride.Core.AssemblyProcessor.deps.json",
+        "tools/AssemblyProcessor/netstandard2.0/Stride.Core.AssemblyProcessor.dll",
+        "tools/AssemblyProcessor/netstandard2.0/Stride.Core.AssemblyProcessor.dll.config",
+        "tools/AssemblyProcessor/netstandard2.0/Stride.Core.AssemblyProcessor.dll.hash",
+        "tools/AssemblyProcessor/netstandard2.0/Stride.Core.AssemblyProcessor.pdb"
+      ]
+    },
+    "Stride.Core.IO/4.3.0.2507": {
+      "sha512": "PAwUtV6qrOA5Vf4x2lk5KeGVUZbCpmgVKTq5XbfH8lUTaDuBcgB0RVk26MM9+OrULP9t2XkUvvzDri/maGcp5A==",
+      "type": "package",
+      "path": "stride.core.io/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.Core.IO.dll",
+        "lib/net10.0-android36.0/Stride.Core.IO.pdb",
+        "lib/net10.0-android36.0/Stride.Core.IO.usrdoc",
+        "lib/net10.0-android36.0/Stride.Core.IO.xml",
+        "lib/net10.0-ios26.0/Stride.Core.IO.dll",
+        "lib/net10.0-ios26.0/Stride.Core.IO.pdb",
+        "lib/net10.0-ios26.0/Stride.Core.IO.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Core.IO.xml",
+        "lib/net10.0/Stride.Core.IO.dll",
+        "lib/net10.0/Stride.Core.IO.pdb",
+        "lib/net10.0/Stride.Core.IO.usrdoc",
+        "lib/net10.0/Stride.Core.IO.xml",
+        "nuget-icon.png",
+        "stride.core.io.4.3.0.2507.nupkg.sha512",
+        "stride.core.io.nuspec"
+      ]
+    },
+    "Stride.Core.Mathematics/4.3.0.2507": {
+      "sha512": "6eA15wpW8CAFjsfIoKsdNySbSv0Rg/88FAnt7pJRqOBwr1e3hUDrXpRxCbVY67uN//pAXPEc3oDdOWL+EuRlKA==",
+      "type": "package",
+      "path": "stride.core.mathematics/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.Core.Mathematics.dll",
+        "lib/net10.0-android36.0/Stride.Core.Mathematics.pdb",
+        "lib/net10.0-android36.0/Stride.Core.Mathematics.usrdoc",
+        "lib/net10.0-android36.0/Stride.Core.Mathematics.xml",
+        "lib/net10.0-ios26.0/Stride.Core.Mathematics.dll",
+        "lib/net10.0-ios26.0/Stride.Core.Mathematics.pdb",
+        "lib/net10.0-ios26.0/Stride.Core.Mathematics.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Core.Mathematics.xml",
+        "lib/net10.0/Stride.Core.Mathematics.dll",
+        "lib/net10.0/Stride.Core.Mathematics.pdb",
+        "lib/net10.0/Stride.Core.Mathematics.usrdoc",
+        "lib/net10.0/Stride.Core.Mathematics.xml",
+        "nuget-icon.png",
+        "stride.core.mathematics.4.3.0.2507.nupkg.sha512",
+        "stride.core.mathematics.nuspec"
+      ]
+    },
+    "Stride.Core.MicroThreading/4.3.0.2507": {
+      "sha512": "joYhB6wnfSLQs9aDslm0novROpyTmzv/A2VMVg9KaSG1ey51NY8gZmJ0eS/B6sPhUfYV3TzO9zBmp4LOsoEy4w==",
+      "type": "package",
+      "path": "stride.core.microthreading/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.Core.MicroThreading.dll",
+        "lib/net10.0-android36.0/Stride.Core.MicroThreading.pdb",
+        "lib/net10.0-android36.0/Stride.Core.MicroThreading.usrdoc",
+        "lib/net10.0-android36.0/Stride.Core.MicroThreading.xml",
+        "lib/net10.0-ios26.0/Stride.Core.MicroThreading.dll",
+        "lib/net10.0-ios26.0/Stride.Core.MicroThreading.pdb",
+        "lib/net10.0-ios26.0/Stride.Core.MicroThreading.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Core.MicroThreading.xml",
+        "lib/net10.0/Stride.Core.MicroThreading.dll",
+        "lib/net10.0/Stride.Core.MicroThreading.pdb",
+        "lib/net10.0/Stride.Core.MicroThreading.usrdoc",
+        "lib/net10.0/Stride.Core.MicroThreading.xml",
+        "nuget-icon.png",
+        "stride.core.microthreading.4.3.0.2507.nupkg.sha512",
+        "stride.core.microthreading.nuspec"
+      ]
+    },
+    "Stride.Core.Serialization/4.3.0.2507": {
+      "sha512": "7Ss14aq3AgqvKB0wpoCa7iMPFcT1FJpfVJ4o1YxiIQRYO1+o8VYOPQ/hnTVzFBGLg41iX/kYYFYcd8Z9kdXTSw==",
+      "type": "package",
+      "path": "stride.core.serialization/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.Core.Serialization.aar",
+        "lib/net10.0-android36.0/Stride.Core.Serialization.dll",
+        "lib/net10.0-android36.0/Stride.Core.Serialization.pdb",
+        "lib/net10.0-android36.0/Stride.Core.Serialization.usrdoc",
+        "lib/net10.0-android36.0/Stride.Core.Serialization.xml",
+        "lib/net10.0-ios26.0/Stride.Core.Serialization.dll",
+        "lib/net10.0-ios26.0/Stride.Core.Serialization.pdb",
+        "lib/net10.0-ios26.0/Stride.Core.Serialization.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Core.Serialization.xml",
+        "lib/net10.0/Stride.Core.Serialization.dll",
+        "lib/net10.0/Stride.Core.Serialization.pdb",
+        "lib/net10.0/Stride.Core.Serialization.usrdoc",
+        "lib/net10.0/Stride.Core.Serialization.xml",
+        "nuget-icon.png",
+        "stride.core.serialization.4.3.0.2507.nupkg.sha512",
+        "stride.core.serialization.nuspec"
+      ]
+    },
+    "Stride.Core.Shaders/4.3.0.2507": {
+      "sha512": "xzn8d4/wrzvfJtMlfL6s1d1mhLMIcHRuubycupATCySOlxjZzU3CF/XToGgrXSNUuZ7ZuYOoHuGatr79WwHPyw==",
+      "type": "package",
+      "path": "stride.core.shaders/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/CppNet.dll",
+        "lib/net10.0-android36.0/Stride.Core.Shaders.dll",
+        "lib/net10.0-android36.0/Stride.Core.Shaders.pdb",
+        "lib/net10.0-android36.0/Stride.Core.Shaders.usrdoc",
+        "lib/net10.0-android36.0/Stride.Core.Shaders.xml",
+        "lib/net10.0-ios26.0/CppNet.dll",
+        "lib/net10.0-ios26.0/Stride.Core.Shaders.dll",
+        "lib/net10.0-ios26.0/Stride.Core.Shaders.pdb",
+        "lib/net10.0-ios26.0/Stride.Core.Shaders.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Core.Shaders.xml",
+        "lib/net10.0/CppNet.dll",
+        "lib/net10.0/Stride.Core.Shaders.dll",
+        "lib/net10.0/Stride.Core.Shaders.pdb",
+        "lib/net10.0/Stride.Core.Shaders.usrdoc",
+        "lib/net10.0/Stride.Core.Shaders.xml",
+        "nuget-icon.png",
+        "stride.core.shaders.4.3.0.2507.nupkg.sha512",
+        "stride.core.shaders.nuspec"
+      ]
+    },
+    "Stride.Engine/4.3.0.2507": {
+      "sha512": "Gw1Sav8Su5VqWsFqX+L3RtPRUjgHTDFNEDntv+HGz6MtZjvVpV1gDCsupfMdZ49rkdGVUHHH7l4jzjZaqOnzSw==",
+      "type": "package",
+      "path": "stride.engine/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.Engine.dll",
+        "lib/net10.0-android36.0/Stride.Engine.pdb",
+        "lib/net10.0-android36.0/Stride.Engine.usrdoc",
+        "lib/net10.0-android36.0/Stride.Engine.xml",
+        "lib/net10.0-ios26.0/Stride.Engine.dll",
+        "lib/net10.0-ios26.0/Stride.Engine.pdb",
+        "lib/net10.0-ios26.0/Stride.Engine.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Engine.xml",
+        "lib/net10.0/Stride.Engine.dll",
+        "lib/net10.0/Stride.Engine.pdb",
+        "lib/net10.0/Stride.Engine.usrdoc",
+        "lib/net10.0/Stride.Engine.xml",
+        "nuget-icon.png",
+        "stride.engine.4.3.0.2507.nupkg.sha512",
+        "stride.engine.nuspec",
+        "stride/Assets/DefaultGraphicsCompositorLevel10.sdgfxcomp",
+        "stride/Assets/DefaultGraphicsCompositorLevel9.sdgfxcomp",
+        "stride/Assets/StrideClearCoatMetalFlakesNM.sdtex",
+        "stride/Assets/StrideClearCoatOrangePeelNM.sdtex",
+        "stride/Assets/StrideDebugSpriteFont.sdtex",
+        "stride/Assets/StrideDefaultFont.sdfnt",
+        "stride/Assets/StrideDefaultSplashScreen.sdtex",
+        "stride/Assets/StrideEnvironmentLightingDFGLUT16.sdtex",
+        "stride/Assets/StrideEnvironmentLightingDFGLUT8.sdtex",
+        "stride/Assets/StrideUIDesigns.sdsheet",
+        "stride/Assets/StrideUILibrary.sduilib",
+        "stride/Resources/ClearCoatMetalFlakesNM.dds",
+        "stride/Resources/ClearCoatOrangePeelNM.dds",
+        "stride/Resources/EnvironmentLightingDFGLUT16.dds",
+        "stride/Resources/EnvironmentLightingDFGLUT8.dds",
+        "stride/Resources/StrideDebugSpriteFont.png",
+        "stride/Resources/StrideDefaultSplashScreen.png",
+        "stride/Resources/UIDesigns.dds",
+        "stride/Stride.Engine.sdpkg"
+      ]
+    },
+    "Stride.Games/4.3.0.2507": {
+      "sha512": "N3VbyJONCfu0WrCTtX5VIlXNPGETAoI5Wk49mj66OXTH06JalgVzSNMerRrjhzzXZBsCYtwCjeANngZ8bLlMGw==",
+      "type": "package",
+      "path": "stride.games/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.Games.aar",
+        "lib/net10.0-android36.0/Stride.Games.dll",
+        "lib/net10.0-android36.0/Stride.Games.pdb",
+        "lib/net10.0-android36.0/Stride.Games.usrdoc",
+        "lib/net10.0-android36.0/Stride.Games.xml",
+        "lib/net10.0-ios26.0/Stride.Games.dll",
+        "lib/net10.0-ios26.0/Stride.Games.pdb",
+        "lib/net10.0-ios26.0/Stride.Games.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Games.xml",
+        "lib/net10.0-windows7.0/Direct3D11/Stride.Games.dll",
+        "lib/net10.0-windows7.0/Direct3D11/Stride.Games.usrdoc",
+        "lib/net10.0-windows7.0/Direct3D11/Stride.Games.xml",
+        "lib/net10.0-windows7.0/Direct3D12/Stride.Games.dll",
+        "lib/net10.0-windows7.0/Direct3D12/Stride.Games.usrdoc",
+        "lib/net10.0-windows7.0/Direct3D12/Stride.Games.xml",
+        "lib/net10.0-windows7.0/OpenGL/Stride.Games.dll",
+        "lib/net10.0-windows7.0/OpenGL/Stride.Games.usrdoc",
+        "lib/net10.0-windows7.0/OpenGL/Stride.Games.xml",
+        "lib/net10.0-windows7.0/OpenGLES/Stride.Games.dll",
+        "lib/net10.0-windows7.0/OpenGLES/Stride.Games.usrdoc",
+        "lib/net10.0-windows7.0/OpenGLES/Stride.Games.xml",
+        "lib/net10.0-windows7.0/Stride.Games.dll",
+        "lib/net10.0-windows7.0/Stride.Games.pdb",
+        "lib/net10.0-windows7.0/Stride.Games.usrdoc",
+        "lib/net10.0-windows7.0/Stride.Games.xml",
+        "lib/net10.0-windows7.0/Vulkan/Stride.Games.dll",
+        "lib/net10.0-windows7.0/Vulkan/Stride.Games.usrdoc",
+        "lib/net10.0-windows7.0/Vulkan/Stride.Games.xml",
+        "lib/net10.0/Direct3D11/Stride.Games.dll",
+        "lib/net10.0/Direct3D11/Stride.Games.usrdoc",
+        "lib/net10.0/Direct3D11/Stride.Games.xml",
+        "lib/net10.0/Direct3D12/Stride.Games.dll",
+        "lib/net10.0/Direct3D12/Stride.Games.usrdoc",
+        "lib/net10.0/Direct3D12/Stride.Games.xml",
+        "lib/net10.0/OpenGL/Stride.Games.dll",
+        "lib/net10.0/OpenGL/Stride.Games.usrdoc",
+        "lib/net10.0/OpenGL/Stride.Games.xml",
+        "lib/net10.0/OpenGLES/Stride.Games.dll",
+        "lib/net10.0/OpenGLES/Stride.Games.usrdoc",
+        "lib/net10.0/OpenGLES/Stride.Games.xml",
+        "lib/net10.0/Stride.Games.dll",
+        "lib/net10.0/Stride.Games.pdb",
+        "lib/net10.0/Stride.Games.usrdoc",
+        "lib/net10.0/Stride.Games.xml",
+        "lib/net10.0/Vulkan/Stride.Games.dll",
+        "lib/net10.0/Vulkan/Stride.Games.usrdoc",
+        "lib/net10.0/Vulkan/Stride.Games.xml",
+        "nuget-icon.png",
+        "stride.games.4.3.0.2507.nupkg.sha512",
+        "stride.games.nuspec"
+      ]
+    },
+    "Stride.Graphics/4.3.0.2507": {
+      "sha512": "eOdPNVAy3+cZ3DXfMp4xhtkF8B6P1Q86I+qjTFIjA7dShCfRtbdzvLGssrOV/bBu6mpJyWo1ZxSGKiDWbQ+8Ng==",
+      "type": "package",
+      "path": "stride.graphics/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Stride.Graphics.targets",
+        "build/Stride.GraphicsApi.PackageReference.targets",
+        "buildTransitive/Stride.Graphics.targets",
+        "buildTransitive/Stride.GraphicsApi.PackageReference.targets",
+        "lib/net10.0-android36.0/Stride.Graphics.dll",
+        "lib/net10.0-android36.0/Stride.Graphics.pdb",
+        "lib/net10.0-android36.0/Stride.Graphics.ssdeps",
+        "lib/net10.0-android36.0/Stride.Graphics.usrdoc",
+        "lib/net10.0-android36.0/Stride.Graphics.xml",
+        "lib/net10.0-ios26.0/Stride.Graphics.dll",
+        "lib/net10.0-ios26.0/Stride.Graphics.pdb",
+        "lib/net10.0-ios26.0/Stride.Graphics.ssdeps",
+        "lib/net10.0-ios26.0/Stride.Graphics.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Graphics.xml",
+        "lib/net10.0/Direct3D11/Stride.Graphics.dll",
+        "lib/net10.0/Direct3D11/Stride.Graphics.ssdeps",
+        "lib/net10.0/Direct3D11/Stride.Graphics.usrdoc",
+        "lib/net10.0/Direct3D11/Stride.Graphics.xml",
+        "lib/net10.0/Direct3D12/Stride.Graphics.dll",
+        "lib/net10.0/Direct3D12/Stride.Graphics.usrdoc",
+        "lib/net10.0/Direct3D12/Stride.Graphics.xml",
+        "lib/net10.0/OpenGL/Stride.Graphics.dll",
+        "lib/net10.0/OpenGL/Stride.Graphics.usrdoc",
+        "lib/net10.0/OpenGL/Stride.Graphics.xml",
+        "lib/net10.0/OpenGLES/Stride.Graphics.dll",
+        "lib/net10.0/OpenGLES/Stride.Graphics.usrdoc",
+        "lib/net10.0/OpenGLES/Stride.Graphics.xml",
+        "lib/net10.0/Stride.Graphics.dll",
+        "lib/net10.0/Stride.Graphics.pdb",
+        "lib/net10.0/Stride.Graphics.ssdeps",
+        "lib/net10.0/Stride.Graphics.usrdoc",
+        "lib/net10.0/Stride.Graphics.xml",
+        "lib/net10.0/Vulkan/Stride.Graphics.dll",
+        "lib/net10.0/Vulkan/Stride.Graphics.usrdoc",
+        "lib/net10.0/Vulkan/Stride.Graphics.xml",
+        "nuget-icon.png",
+        "runtimes/android-arm/native/libfreetype.so",
+        "runtimes/android-arm64/native/libfreetype.so",
+        "runtimes/android-x64/native/libfreetype.so",
+        "runtimes/android-x86/native/libfreetype.so",
+        "runtimes/native/libfreetype.a",
+        "runtimes/osx-x64/native/libfreetype.dylib",
+        "runtimes/osx-x64/native/libvulkan.1.dylib",
+        "runtimes/win-arm64/native/freetype.dll",
+        "runtimes/win-x64/native/freetype.dll",
+        "runtimes/win-x86/native/freetype.dll",
+        "stride.graphics.4.3.0.2507.nupkg.sha512",
+        "stride.graphics.nuspec",
+        "stride/Assets/ColorUtility.sdsl",
+        "stride/Assets/ShaderBase.sdsl",
+        "stride/Assets/ShaderBaseStream.sdsl",
+        "stride/Assets/SignedDistanceFieldFont.sdsl",
+        "stride/Assets/SignedDistanceFieldFontShader.sdsl",
+        "stride/Assets/SpriteAlphaCutoff.sdsl",
+        "stride/Assets/SpriteBase.sdsl",
+        "stride/Assets/SpriteBatch.sdfx",
+        "stride/Assets/SpriteBatchShader.sdsl",
+        "stride/Assets/SpriteEffect.sdsl",
+        "stride/Assets/SpriteEffectExtTexture.sdsl",
+        "stride/Assets/SpriteEffectExtTextureRegular.sdsl",
+        "stride/Assets/SpriteSignedDistanceFieldFontShader.sdsl",
+        "stride/Assets/SpriteSuperSampler.sdsl",
+        "stride/Assets/Texturing.sdsl",
+        "stride/Assets/UIEffect.sdfx",
+        "stride/Assets/UIEffectShader.sdsl",
+        "stride/Stride.Graphics.sdpkg"
+      ]
+    },
+    "Stride.Input/4.3.0.2507": {
+      "sha512": "ioDH6Dzeu0PHsHmJfPYjvqrYkfzIZ95ONxAkc97Rd93xReYsw/1Mecny13CeBcGwPtCkoH9ME/8/eJAOoNUWAA==",
+      "type": "package",
+      "path": "stride.input/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.Input.dll",
+        "lib/net10.0-android36.0/Stride.Input.pdb",
+        "lib/net10.0-android36.0/Stride.Input.usrdoc",
+        "lib/net10.0-android36.0/Stride.Input.xml",
+        "lib/net10.0-ios26.0/Stride.Input.dll",
+        "lib/net10.0-ios26.0/Stride.Input.pdb",
+        "lib/net10.0-ios26.0/Stride.Input.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Input.xml",
+        "lib/net10.0-windows7.0/Direct3D11/Stride.Input.dll",
+        "lib/net10.0-windows7.0/Direct3D11/Stride.Input.usrdoc",
+        "lib/net10.0-windows7.0/Direct3D11/Stride.Input.xml",
+        "lib/net10.0-windows7.0/Direct3D12/Stride.Input.dll",
+        "lib/net10.0-windows7.0/Direct3D12/Stride.Input.usrdoc",
+        "lib/net10.0-windows7.0/Direct3D12/Stride.Input.xml",
+        "lib/net10.0-windows7.0/OpenGL/Stride.Input.dll",
+        "lib/net10.0-windows7.0/OpenGL/Stride.Input.usrdoc",
+        "lib/net10.0-windows7.0/OpenGL/Stride.Input.xml",
+        "lib/net10.0-windows7.0/OpenGLES/Stride.Input.dll",
+        "lib/net10.0-windows7.0/OpenGLES/Stride.Input.usrdoc",
+        "lib/net10.0-windows7.0/OpenGLES/Stride.Input.xml",
+        "lib/net10.0-windows7.0/Stride.Input.dll",
+        "lib/net10.0-windows7.0/Stride.Input.pdb",
+        "lib/net10.0-windows7.0/Stride.Input.usrdoc",
+        "lib/net10.0-windows7.0/Stride.Input.xml",
+        "lib/net10.0-windows7.0/Vulkan/Stride.Input.dll",
+        "lib/net10.0-windows7.0/Vulkan/Stride.Input.usrdoc",
+        "lib/net10.0-windows7.0/Vulkan/Stride.Input.xml",
+        "lib/net10.0/Direct3D11/Stride.Input.dll",
+        "lib/net10.0/Direct3D11/Stride.Input.usrdoc",
+        "lib/net10.0/Direct3D11/Stride.Input.xml",
+        "lib/net10.0/Direct3D12/Stride.Input.dll",
+        "lib/net10.0/Direct3D12/Stride.Input.usrdoc",
+        "lib/net10.0/Direct3D12/Stride.Input.xml",
+        "lib/net10.0/OpenGL/Stride.Input.dll",
+        "lib/net10.0/OpenGL/Stride.Input.usrdoc",
+        "lib/net10.0/OpenGL/Stride.Input.xml",
+        "lib/net10.0/OpenGLES/Stride.Input.dll",
+        "lib/net10.0/OpenGLES/Stride.Input.usrdoc",
+        "lib/net10.0/OpenGLES/Stride.Input.xml",
+        "lib/net10.0/Stride.Input.dll",
+        "lib/net10.0/Stride.Input.pdb",
+        "lib/net10.0/Stride.Input.usrdoc",
+        "lib/net10.0/Stride.Input.xml",
+        "lib/net10.0/Vulkan/Stride.Input.dll",
+        "lib/net10.0/Vulkan/Stride.Input.usrdoc",
+        "lib/net10.0/Vulkan/Stride.Input.xml",
+        "nuget-icon.png",
+        "stride.input.4.3.0.2507.nupkg.sha512",
+        "stride.input.nuspec"
+      ]
+    },
+    "Stride.Irony/4.3.0.2507": {
+      "sha512": "jENBdEsZNJWJBekFaHwwDfISOu9sp++B4ZFgUNGxfZqxrZ3JKgt1JjpAxukKnX/5J0ZFGbZ/TbBmHD1K8b7WZw==",
+      "type": "package",
+      "path": "stride.irony/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.Irony.dll",
+        "lib/net10.0-android36.0/Stride.Irony.pdb",
+        "lib/net10.0-android36.0/Stride.Irony.xml",
+        "lib/net10.0-ios26.0/Stride.Irony.dll",
+        "lib/net10.0-ios26.0/Stride.Irony.pdb",
+        "lib/net10.0-ios26.0/Stride.Irony.xml",
+        "lib/net10.0/Stride.Irony.dll",
+        "lib/net10.0/Stride.Irony.pdb",
+        "lib/net10.0/Stride.Irony.xml",
+        "nuget-icon.png",
+        "stride.irony.4.3.0.2507.nupkg.sha512",
+        "stride.irony.nuspec"
+      ]
+    },
+    "Stride.Native/4.3.0.2507": {
+      "sha512": "KYGx1Jv4pIiN1yFMN4M0r+a1TcB7yFMV9dJoFYaAtrpNIUB5pd31YZDOKqim3ZzYkqVj9LkSlqrAd1+wOTPXGQ==",
+      "type": "package",
+      "path": "stride.native/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.Native.dll",
+        "lib/net10.0-android36.0/Stride.Native.pdb",
+        "lib/net10.0-android36.0/Stride.Native.usrdoc",
+        "lib/net10.0-android36.0/Stride.Native.xml",
+        "lib/net10.0-ios26.0/Stride.Native.dll",
+        "lib/net10.0-ios26.0/Stride.Native.pdb",
+        "lib/net10.0-ios26.0/Stride.Native.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Native.xml",
+        "lib/net10.0/Stride.Native.dll",
+        "lib/net10.0/Stride.Native.pdb",
+        "lib/net10.0/Stride.Native.usrdoc",
+        "lib/net10.0/Stride.Native.xml",
+        "nuget-icon.png",
+        "stride.native.4.3.0.2507.nupkg.sha512",
+        "stride.native.nuspec"
+      ]
+    },
+    "Stride.Particles/4.3.0.2507": {
+      "sha512": "9Krj+Og9cb4lGzsN5BO1JAEdGNORM01F59xOb0x3Hxp1J8SzayvQ/NgehCg9LdMIO2S9/rhp2JZ19yymi86f9Q==",
+      "type": "package",
+      "path": "stride.particles/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.Particles.dll",
+        "lib/net10.0-android36.0/Stride.Particles.pdb",
+        "lib/net10.0-android36.0/Stride.Particles.usrdoc",
+        "lib/net10.0-android36.0/Stride.Particles.xml",
+        "lib/net10.0-ios26.0/Stride.Particles.dll",
+        "lib/net10.0-ios26.0/Stride.Particles.pdb",
+        "lib/net10.0-ios26.0/Stride.Particles.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Particles.xml",
+        "lib/net10.0/Stride.Particles.dll",
+        "lib/net10.0/Stride.Particles.pdb",
+        "lib/net10.0/Stride.Particles.usrdoc",
+        "lib/net10.0/Stride.Particles.xml",
+        "nuget-icon.png",
+        "stride.particles.4.3.0.2507.nupkg.sha512",
+        "stride.particles.nuspec",
+        "stride/Assets/ComputeColorWhite.sdsl",
+        "stride/Assets/ParticleBase.sdsl",
+        "stride/Assets/ParticleBaseEffect.sdfx",
+        "stride/Assets/ParticleColor.sdsl",
+        "stride/Assets/ParticleColorStream.sdsl",
+        "stride/Assets/ParticleComputeColorShader.sdsl",
+        "stride/Assets/ParticleEffect.sdfx",
+        "stride/Assets/ParticleUtilities.sdsl",
+        "stride/Stride.Particles.sdpkg"
+      ]
+    },
+    "Stride.Physics/4.3.0.2507": {
+      "sha512": "FQo5H/mLehxAeT3256tkURx4eR406D9mP0MhSno+eX2ld2EyfZqhIJH3hGoRuEKbORBDEEFoEw5XAf+IrjHZZQ==",
+      "type": "package",
+      "path": "stride.physics/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/BulletSharp.NetStandard.dll",
+        "lib/net10.0-android36.0/Stride.Physics.dll",
+        "lib/net10.0-android36.0/Stride.Physics.pdb",
+        "lib/net10.0-android36.0/Stride.Physics.ssdeps",
+        "lib/net10.0-android36.0/Stride.Physics.usrdoc",
+        "lib/net10.0-android36.0/Stride.Physics.xml",
+        "lib/net10.0-ios26.0/BulletSharp.NetStandard.dll",
+        "lib/net10.0-ios26.0/Stride.Physics.dll",
+        "lib/net10.0-ios26.0/Stride.Physics.pdb",
+        "lib/net10.0-ios26.0/Stride.Physics.ssdeps",
+        "lib/net10.0-ios26.0/Stride.Physics.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Physics.xml",
+        "lib/net10.0/BulletSharp.NetStandard.dll",
+        "lib/net10.0/Stride.Physics.dll",
+        "lib/net10.0/Stride.Physics.pdb",
+        "lib/net10.0/Stride.Physics.ssdeps",
+        "lib/net10.0/Stride.Physics.usrdoc",
+        "lib/net10.0/Stride.Physics.xml",
+        "nuget-icon.png",
+        "runtimes/android-arm/native/libbulletc.so",
+        "runtimes/android-arm64/native/libbulletc.so",
+        "runtimes/android-x64/native/libbulletc.so",
+        "runtimes/android-x86/native/libbulletc.so",
+        "runtimes/linux-x64/native/libbulletc.so",
+        "runtimes/native/libbulletc.a",
+        "runtimes/osx-x64/native/libbulletc.dylib",
+        "runtimes/win-arm64/native/libbulletc.dll",
+        "runtimes/win-x64/native/libbulletc.dll",
+        "runtimes/win-x86/native/libbulletc.dll",
+        "stride.physics.4.3.0.2507.nupkg.sha512",
+        "stride.physics.nuspec"
+      ]
+    },
+    "Stride.Rendering/4.3.0.2507": {
+      "sha512": "UtC/QLcLpY6k5BOmV6XGAS+ZkxgOXG/18xHPyUqB0ZLrXdLgmfBAa/eK4GPu14uSoOTEiqi4orq+M8/iP3GDNA==",
+      "type": "package",
+      "path": "stride.rendering/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.Rendering.dll",
+        "lib/net10.0-android36.0/Stride.Rendering.pdb",
+        "lib/net10.0-android36.0/Stride.Rendering.usrdoc",
+        "lib/net10.0-android36.0/Stride.Rendering.xml",
+        "lib/net10.0-ios26.0/Stride.Rendering.dll",
+        "lib/net10.0-ios26.0/Stride.Rendering.pdb",
+        "lib/net10.0-ios26.0/Stride.Rendering.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Rendering.xml",
+        "lib/net10.0/Stride.Rendering.dll",
+        "lib/net10.0/Stride.Rendering.pdb",
+        "lib/net10.0/Stride.Rendering.usrdoc",
+        "lib/net10.0/Stride.Rendering.xml",
+        "nuget-icon.png",
+        "stride.rendering.4.3.0.2507.nupkg.sha512",
+        "stride.rendering.nuspec",
+        "stride/Assets/BRDF/BRDFMicrofacet.sdsl",
+        "stride/Assets/Background/BackgroundCubemapShader.sdsl",
+        "stride/Assets/Background/BackgroundShader.sdsl",
+        "stride/Assets/Compositing/MSAADepthResolverShader.sdsl",
+        "stride/Assets/Compositing/MSAAResolverEffect.sdfx",
+        "stride/Assets/Compositing/MSAAResolverShader.sdsl",
+        "stride/Assets/ComputeEffect/ComputeEffectShader.sdfx",
+        "stride/Assets/ComputeEffect/ComputeShaderBase.sdsl",
+        "stride/Assets/ComputeEffect/GGXPrefiltering/Hammersley.sdsl",
+        "stride/Assets/ComputeEffect/GGXPrefiltering/ImportanceSamplingGGX.sdsl",
+        "stride/Assets/ComputeEffect/GGXPrefiltering/RadiancePrefilteringGGXEffect.sdfx",
+        "stride/Assets/ComputeEffect/GGXPrefiltering/RadiancePrefilteringGGXNoComputeEffect.sdfx",
+        "stride/Assets/ComputeEffect/GGXPrefiltering/RadiancePrefilteringGGXNoComputeShader.sdsl",
+        "stride/Assets/ComputeEffect/GGXPrefiltering/RadiancePrefilteringGGXShader.sdsl",
+        "stride/Assets/ComputeEffect/LambertianPrefiltering/LambertianPrefilteringSH.sdfx",
+        "stride/Assets/ComputeEffect/LambertianPrefiltering/LambertianPrefilteringSHNoComputeEffect.sdfx",
+        "stride/Assets/ComputeEffect/LambertianPrefiltering/LambertianPrefilteringSHNoComputePass1.sdsl",
+        "stride/Assets/ComputeEffect/LambertianPrefiltering/LambertianPrefilteringSHNoComputePass2.sdsl",
+        "stride/Assets/ComputeEffect/LambertianPrefiltering/LambertianPrefilteringSHPass1.sdsl",
+        "stride/Assets/ComputeEffect/LambertianPrefiltering/LambertianPrefilteringSHPass2.sdsl",
+        "stride/Assets/Core/BackgroundVelocity.sdsl",
+        "stride/Assets/Core/BackgroundVelocityEffect.sdfx",
+        "stride/Assets/Core/ColorBase.sdsl",
+        "stride/Assets/Core/DynamicSampler.sdsl",
+        "stride/Assets/Core/DynamicTexture.sdsl",
+        "stride/Assets/Core/DynamicTextureCube.sdsl",
+        "stride/Assets/Core/DynamicTextureStream.sdsl",
+        "stride/Assets/Core/MeshVelocity.sdsl",
+        "stride/Assets/Core/NormalBase.sdsl",
+        "stride/Assets/Core/NormalFromMesh.sdsl",
+        "stride/Assets/Core/NormalFromMeshInstanced.sdsl",
+        "stride/Assets/Core/NormalFromNormalMapping.sdsl",
+        "stride/Assets/Core/NormalFromNormalMappingInstanced.sdsl",
+        "stride/Assets/Core/NormalFromNormalMappingTessellation.sdsl",
+        "stride/Assets/Core/NormalFromNormalMappingTessellationInstanced.sdsl",
+        "stride/Assets/Core/NormalStream.sdsl",
+        "stride/Assets/Core/NormalUpdate.sdsl",
+        "stride/Assets/Core/PositionHStream4.sdsl",
+        "stride/Assets/Core/PositionStream.sdsl",
+        "stride/Assets/Core/PositionStream2.sdsl",
+        "stride/Assets/Core/PositionStream4.sdsl",
+        "stride/Assets/Core/PositionVertexTransform.sdsl",
+        "stride/Assets/Core/ScreenPositionBase.sdsl",
+        "stride/Assets/Core/ShadingBase.sdsl",
+        "stride/Assets/Core/ShadingColor.sdsl",
+        "stride/Assets/Core/VelocityOutput.sdsl",
+        "stride/Assets/Core/VelocityStream.sdsl",
+        "stride/Assets/Deferred/GBuffer.sdsl",
+        "stride/Assets/Editor/CameraOrientationGizmoShader.sdsl",
+        "stride/Assets/Editor/CompilationErrorShader.sdsl",
+        "stride/Assets/Editor/EffectCompiling.sdsl",
+        "stride/Assets/Editor/LightConstantWhite.sdsl",
+        "stride/Assets/Editor/SelectedSpriteShader.sdsl",
+        "stride/Assets/Editor/SharedTextureCoordinate.sdsl",
+        "stride/Assets/Editor/Sprite3DBase.sdsl",
+        "stride/Assets/Editor/SpritePicking.sdsl",
+        "stride/Assets/Images/AmbientOcclusion/AmbientOcclusionBlurEffect.sdfx",
+        "stride/Assets/Images/AmbientOcclusion/AmbientOcclusionBlurShader.sdsl",
+        "stride/Assets/Images/AmbientOcclusion/AmbientOcclusionRawAOEffect.sdfx",
+        "stride/Assets/Images/AmbientOcclusion/AmbientOcclusionRawAOShader.sdsl",
+        "stride/Assets/Images/AmbientOcclusion/ApplyAmbientOcclusionShader.sdsl",
+        "stride/Assets/Images/AntiAliasing/FXAAShader.sdsl",
+        "stride/Assets/Images/AntiAliasing/FXAAShaderEffect.sdfx",
+        "stride/Assets/Images/AntiAliasing/TemporalAntiAliasShader.sdsl",
+        "stride/Assets/Images/Bloom/BloomAfterimageCombineShader.sdsl",
+        "stride/Assets/Images/Bloom/BloomAfterimageShader.sdsl",
+        "stride/Assets/Images/BrightFilter/BrightFilterShader.sdsl",
+        "stride/Assets/Images/ColorCombiner/ColorCombinerEffect.sdfx",
+        "stride/Assets/Images/ColorCombiner/ColorCombinerShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/ColorTransformGroupEffect.sdfx",
+        "stride/Assets/Images/ColorTransforms/ColorTransformGroupShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/ColorTransformShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/LuminanceToChannelShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/Noise/FilmGrainShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/ToneMap/ToneMapACESOperatorShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/ToneMap/ToneMapCommonOperatorShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/ToneMap/ToneMapDragoOperatorShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/ToneMap/ToneMapEffect.sdfx",
+        "stride/Assets/Images/ColorTransforms/ToneMap/ToneMapExponentialOperatorShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/ToneMap/ToneMapHejl2OperatorShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/ToneMap/ToneMapHejlDawsonOperatorShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/ToneMap/ToneMapLogarithmicOperatorShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/ToneMap/ToneMapMikeDayOperatorShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/ToneMap/ToneMapOperatorShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/ToneMap/ToneMapReinhardOperatorShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/ToneMap/ToneMapShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/ToneMap/ToneMapU2FilmicOperatorShader.sdsl",
+        "stride/Assets/Images/ColorTransforms/Vignetting/VignettingShader.sdsl",
+        "stride/Assets/Images/DepthMinMax/DepthMinMaxEffect.sdfx",
+        "stride/Assets/Images/DepthMinMax/DepthMinMaxShader.sdsl",
+        "stride/Assets/Images/DepthOfField/BokehTechnique/Hexagonal/McIntoshCombineShader.sdsl",
+        "stride/Assets/Images/DepthOfField/BokehTechnique/Hexagonal/McIntoshOptimizedEffect.sdfx",
+        "stride/Assets/Images/DepthOfField/BokehTechnique/Hexagonal/McIntoshOptimizedShader.sdsl",
+        "stride/Assets/Images/DepthOfField/BokehTechnique/Hexagonal/TripleRhombiCombineShader.sdsl",
+        "stride/Assets/Images/DepthOfField/CircleOfConfusion.sdsl",
+        "stride/Assets/Images/DepthOfField/CoCLinearDepthShader.sdsl",
+        "stride/Assets/Images/DepthOfField/CoCMapBlurEffect.sdfx",
+        "stride/Assets/Images/DepthOfField/CoCMapBlurShader.sdsl",
+        "stride/Assets/Images/DepthOfField/CombineFrontCoCEffect.sdfx",
+        "stride/Assets/Images/DepthOfField/CombineFrontCoCShader.sdsl",
+        "stride/Assets/Images/DepthOfField/CombineLevelsFromCoCEffect.sdfx",
+        "stride/Assets/Images/DepthOfField/CombineLevelsFromCoCShader.sdsl",
+        "stride/Assets/Images/DepthOfField/DepthAwareDirectionalBlurEffect.sdfx",
+        "stride/Assets/Images/DepthOfField/DepthAwareDirectionalBlurShader.sdsl",
+        "stride/Assets/Images/DepthOfField/DepthAwareDirectionalBlurUtil.sdsl",
+        "stride/Assets/Images/DepthOfField/PointDepth.sdsl",
+        "stride/Assets/Images/DepthOfField/ThresholdAlphaCoC.sdsl",
+        "stride/Assets/Images/DepthOfField/ThresholdAlphaCoCFront.sdsl",
+        "stride/Assets/Images/Dither/Dither.sdsl",
+        "stride/Assets/Images/Fog/FogEffect.sdsl",
+        "stride/Assets/Images/GaussianBlur/GaussianBlurEffect.sdfx",
+        "stride/Assets/Images/GaussianBlur/GaussianBlurShader.sdsl",
+        "stride/Assets/Images/ImageEffectShader.sdsl",
+        "stride/Assets/Images/ImageScaler/ImageScalerEffect.sdfx",
+        "stride/Assets/Images/ImageScaler/ImageScalerShader.sdsl",
+        "stride/Assets/Images/LensFlare/FlareArtifactEffect.sdfx",
+        "stride/Assets/Images/LensFlare/FlareArtifactShader.sdsl",
+        "stride/Assets/Images/LensFlare/FlareReplicate.sdsl",
+        "stride/Assets/Images/LightShafts/AdditiveLightEffect.sdsl",
+        "stride/Assets/Images/LightShafts/AdditiveLightShader.sdsl",
+        "stride/Assets/Images/LightShafts/LightShaftsEffect.sdfx",
+        "stride/Assets/Images/LightShafts/LightShaftsShader.sdsl",
+        "stride/Assets/Images/LightShafts/PostEffectBoundingRay.sdsl",
+        "stride/Assets/Images/LightShafts/VolumeMinMaxShader.sdsl",
+        "stride/Assets/Images/LightStreak/LightStreakEffect.sdfx",
+        "stride/Assets/Images/LightStreak/LightStreakShader.sdsl",
+        "stride/Assets/Images/LocalReflections/SSLRBlurPass.sdsl",
+        "stride/Assets/Images/LocalReflections/SSLRCombinePass.sdsl",
+        "stride/Assets/Images/LocalReflections/SSLRCommon.sdsl",
+        "stride/Assets/Images/LocalReflections/SSLRDepthPass.sdsl",
+        "stride/Assets/Images/LocalReflections/SSLRRayTracePass.sdsl",
+        "stride/Assets/Images/LocalReflections/SSLRResolvePass.sdsl",
+        "stride/Assets/Images/LocalReflections/SSLRTemporalPass.sdsl",
+        "stride/Assets/Images/LuminanceEffect/LuminanceLogShader.sdsl",
+        "stride/Assets/Images/LuminanceEffect/LuminanceUtils.sdsl",
+        "stride/Assets/Images/Outline/OutlineEffect.sdsl",
+        "stride/Assets/Images/RangeConversion/RangeCompressorShader.sdsl",
+        "stride/Assets/Images/RangeConversion/RangeDecompressorShader.sdsl",
+        "stride/Assets/Images/SphericalHarmonics/SphericalHarmonicsBase.sdsl",
+        "stride/Assets/Images/SphericalHarmonics/SphericalHarmonicsParameters.sdfx",
+        "stride/Assets/Images/SphericalHarmonics/SphericalHarmonicsRenderer.sdsl",
+        "stride/Assets/Images/SphericalHarmonics/SphericalHarmonicsRendererEffect.sdfx",
+        "stride/Assets/Images/SphericalHarmonics/SphericalHarmonicsUtils.sdsl",
+        "stride/Assets/Images/SubsurfaceScattering/SubsurfaceScatteringBlurEffect.sdfx",
+        "stride/Assets/Images/SubsurfaceScattering/SubsurfaceScatteringBlurShader.sdsl",
+        "stride/Assets/LightProbes/BakeLightProbeShader.sdsl",
+        "stride/Assets/LightProbes/ComputeSphericalHarmonics.sdsl",
+        "stride/Assets/LightProbes/LightProbeShader.sdsl",
+        "stride/Assets/LightProbes/StrideBakeLightProbeEffect.sdfx",
+        "stride/Assets/Lights/DirectLightGroup.sdsl",
+        "stride/Assets/Lights/DirectLightGroupArray.sdsl",
+        "stride/Assets/Lights/DirectLightGroupFixed.sdsl",
+        "stride/Assets/Lights/DirectLightGroupPerDraw.sdsl",
+        "stride/Assets/Lights/DirectLightGroupPerView.sdsl",
+        "stride/Assets/Lights/EnvironmentLight.sdsl",
+        "stride/Assets/Lights/EnvironmentLightArray.sdsl",
+        "stride/Assets/Lights/LightClustered.sdsl",
+        "stride/Assets/Lights/LightClusteredPointGroup.sdsl",
+        "stride/Assets/Lights/LightClusteredSpotGroup.sdsl",
+        "stride/Assets/Lights/LightDirectional.sdsl",
+        "stride/Assets/Lights/LightDirectionalGroup.sdsl",
+        "stride/Assets/Lights/LightPoint.sdsl",
+        "stride/Assets/Lights/LightPointGroup.sdsl",
+        "stride/Assets/Lights/LightSimpleAmbient.sdsl",
+        "stride/Assets/Lights/LightSkyboxEffect.sdfx",
+        "stride/Assets/Lights/LightSkyboxShader.sdsl",
+        "stride/Assets/Lights/LightSpot.sdsl",
+        "stride/Assets/Lights/LightSpotAttenuationDefault.sdsl",
+        "stride/Assets/Lights/LightSpotAttenuationRectangular.sdsl",
+        "stride/Assets/Lights/LightSpotGroup.sdsl",
+        "stride/Assets/Lights/LightStream.sdsl",
+        "stride/Assets/Lights/LightUtil.sdsl",
+        "stride/Assets/Lights/SpotLightDataInternalShader.sdsl",
+        "stride/Assets/Lights/TextureProjection/TextureProjectionCommon.sdsl",
+        "stride/Assets/Lights/TextureProjection/TextureProjectionFilterDefault.sdsl",
+        "stride/Assets/Lights/TextureProjection/TextureProjectionGroup.sdsl",
+        "stride/Assets/Lights/TextureProjection/TextureProjectionReceiverBase.sdsl",
+        "stride/Assets/Lights/TextureProjection/TextureProjectionReceiverSpot.sdsl",
+        "stride/Assets/Materials/CelShading/IMaterialCelShadingLightFunction.sdsl",
+        "stride/Assets/Materials/CelShading/MaterialCelShadingLightDefault.sdsl",
+        "stride/Assets/Materials/CelShading/MaterialCelShadingLightRamp.sdsl",
+        "stride/Assets/Materials/CelShading/MaterialSurfaceShadingDiffuseCelShading.sdsl",
+        "stride/Assets/Materials/CelShading/MaterialSurfaceShadingSpecularCelShading.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorAdd3ds.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorDarken3ds.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorDifference3ds.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorLighten3ds.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorMask3ds.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorMultiply3ds.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorOver3ds.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorOverlay3ds.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/3dsMax/ComputeColorSubtract3ds.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColor.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColor3.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorAdd.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorAdd3.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorAverage.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorCave.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorColor.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorColorBurn.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorColorDodge.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorConstantColor3Link.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorConstantColorLink.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorConstantFloatLink.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorConstantLink.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorDesaturate.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorDivide.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorExclusion.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorFixed.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorFromStream.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorHardLight.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorHardMix.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorHue.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorIlluminate.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorIn.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorLerpAlpha.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorLinearBurn.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorLinearDodge.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorMask.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorMultiply.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorOne.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorOut.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorOutdoor.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorOverlay.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorParameter.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorPinLight.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorSaturate.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorSaturation.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorScaler.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorScreen.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorSoftLight.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorStream.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorSubstituteAlpha.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorSubstituteAlphaWithColor.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorSubtract.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorSynthetic.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorTexture.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureDynamicScaledOffset.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureLodSampler.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureLodScaledOffsetDynamicSampler.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureLodScaledOffsetSampler.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureLodScaledSampler.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureRepeat.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureSampler.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureScaled.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureScaledOffset.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureScaledOffsetDynamicSampler.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureScaledOffsetDynamicSamplerRandomUV.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureScaledOffsetSampler.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorTextureScaledSampler.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorThreshold.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/ComputeColorValue.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/Maya/ComputeColorAddMaya.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/Maya/ComputeColorDarkenMaya.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/Maya/ComputeColorDifferenceMaya.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/Maya/ComputeColorLightenMaya.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/Maya/ComputeColorMultiplyMaya.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/Maya/ComputeColorOverMaya.sdsl",
+        "stride/Assets/Materials/ComputeColors/Shaders/Maya/ComputeColorSubtractMaya.sdsl",
+        "stride/Assets/Materials/Hair/DirectionFunction/IMaterialHairDirectionFunction.sdsl",
+        "stride/Assets/Materials/Hair/DirectionFunction/MaterialHairDirectionFunctionBitangent.sdsl",
+        "stride/Assets/Materials/Hair/DirectionFunction/MaterialHairDirectionFunctionTangent.sdsl",
+        "stride/Assets/Materials/Hair/DiscardFunction/IMaterialHairDiscardFunction.sdsl",
+        "stride/Assets/Materials/Hair/DiscardFunction/MaterialHairDiscardFunctionOpaquePass.sdsl",
+        "stride/Assets/Materials/Hair/DiscardFunction/MaterialHairDiscardFunctionTransparentPass.sdsl",
+        "stride/Assets/Materials/Hair/LightAttenuationFunction/IMaterialHairLightAttenuationFunction.sdsl",
+        "stride/Assets/Materials/Hair/LightAttenuationFunction/MaterialHairLightAttenuationFunctionDirectional.sdsl",
+        "stride/Assets/Materials/Hair/LightAttenuationFunction/MaterialHairLightAttenuationFunctionNone.sdsl",
+        "stride/Assets/Materials/Hair/MaterialHairShared.sdsl",
+        "stride/Assets/Materials/Hair/MaterialSurfaceShadingDiffuseHair.sdsl",
+        "stride/Assets/Materials/Hair/MaterialSurfaceShadingSpecularHair.sdsl",
+        "stride/Assets/Materials/Hair/ShadowingFunction/IMaterialHairShadowingFunction.sdsl",
+        "stride/Assets/Materials/Hair/ShadowingFunction/MaterialHairShadowingFunctionScattering.sdsl",
+        "stride/Assets/Materials/Hair/ShadowingFunction/MaterialHairShadowingFunctionShadowing.sdsl",
+        "stride/Assets/Materials/IMaterialSurfaceDomain.sdsl",
+        "stride/Assets/Materials/IStreamInitializer.sdsl",
+        "stride/Assets/Materials/MaterialDisplacementStream.sdsl",
+        "stride/Assets/Materials/MaterialDomainStream.sdsl",
+        "stride/Assets/Materials/MaterialStreamAdditiveBlend.sdsl",
+        "stride/Assets/Materials/MaterialSurfaceDisplacement.sdsl",
+        "stride/Assets/Materials/MaterialSurfaceDomainStageCompositor.sdsl",
+        "stride/Assets/Materials/MaterialTessellationStream.sdsl",
+        "stride/Assets/Materials/Shaders/ComputeColorMaterialAlphaBlend.sdsl",
+        "stride/Assets/Materials/Shaders/GBufferOutputNormals.sdsl",
+        "stride/Assets/Materials/Shaders/GBufferOutputSpecularColorRoughness.sdsl",
+        "stride/Assets/Materials/Shaders/GBufferOutputSubsurfaceScatteringMaterialIndex.sdsl",
+        "stride/Assets/Materials/Shaders/IMaterialSpecularMicrofacetEnvironmentFunction.sdsl",
+        "stride/Assets/Materials/Shaders/IMaterialSpecularMicrofacetFresnelFunction.sdsl",
+        "stride/Assets/Materials/Shaders/IMaterialSpecularMicrofacetNormalDistributionFunction.sdsl",
+        "stride/Assets/Materials/Shaders/IMaterialSpecularMicrofacetVisibilityFunction.sdsl",
+        "stride/Assets/Materials/Shaders/IMaterialStreamBlend.sdsl",
+        "stride/Assets/Materials/Shaders/IMaterialSurface.sdsl",
+        "stride/Assets/Materials/Shaders/IMaterialSurfacePixel.sdsl",
+        "stride/Assets/Materials/Shaders/IMaterialSurfaceShading.sdsl",
+        "stride/Assets/Materials/Shaders/IMaterialSurfaceVertex.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialFrontBackBlendShader.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialPixelShadingStream.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialPixelStream.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetEnvironmentGGXLUT.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetEnvironmentGGXPolynomial.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetEnvironmentThinGlass.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetFresnelNone.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetFresnelSchlick.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetFresnelThinGlass.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetNormalDistributionBeckmann.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetNormalDistributionBlinnPhong.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetNormalDistributionGGX.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilityCookTorrance.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilityImplicit.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilityKelemen.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilityNeumann.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilitySmithBeckmann.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilitySmithGGXCorrelated.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilitySmithSchlickBeckmann.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSpecularMicrofacetVisibilitySmithSchlickGGX.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialStream.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialStreamLinearBlend.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialStreamNormalBlend.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceArray.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceDiffuse.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceDiffuseMetalFlakes.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceDiffuseSpecularAlphaBlendColor.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceEmissiveShading.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceGlossinessMap.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceGlossinessMapMetalFlakes.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceLightingAndShading.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceMetalness.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceNormalMap.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceNormalStreamShading.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfacePixelStageCompositor.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceSetStreamFromComputeColor.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceShadingBlend.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceShadingDiffuseLambert.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceShadingSpecularBlinnPhong.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceShadingSpecularMicrofacet.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceStreamShading.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceStreamsBlend.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceTransmittanceShading.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceTransparentAlphaDiscard.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceVertexDisplacement.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialSurfaceVertexStageCompositor.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialTransmittanceReflectanceStream.sdsl",
+        "stride/Assets/Materials/Shaders/MaterialVertexStream.sdsl",
+        "stride/Assets/Materials/SubsurfaceScattering/MaterialSurfaceSubsurfaceScatteringShading.sdsl",
+        "stride/Assets/Materials/SubsurfaceScattering/ScatteringProfileFunction/IMaterialSubsurfaceScatteringScatteringProfile.sdsl",
+        "stride/Assets/Materials/SubsurfaceScattering/ScatteringProfileFunction/MaterialSubsurfaceScatteringScatteringProfileCustomUniform.sdsl",
+        "stride/Assets/Materials/SubsurfaceScattering/ScatteringProfileFunction/MaterialSubsurfaceScatteringScatteringProfileCustomVarying.sdsl",
+        "stride/Assets/Materials/SubsurfaceScattering/ScatteringProfileFunction/MaterialSubsurfaceScatteringScatteringProfileSkin.sdsl",
+        "stride/Assets/ProceduralModels/CameraCube.sdsl",
+        "stride/Assets/Shaders/Camera.sdsl",
+        "stride/Assets/Shaders/Global.sdsl",
+        "stride/Assets/Shaders/GlobalVR.sdsl",
+        "stride/Assets/Shaders/Transformation.sdsl",
+        "stride/Assets/Shadows/ShadowGroup.sdsl",
+        "stride/Assets/Shadows/ShadowMapCaster.sdfx",
+        "stride/Assets/Shadows/ShadowMapCasterAlphaDiscard.sdsl",
+        "stride/Assets/Shadows/ShadowMapCasterAlphaDithered.sdsl",
+        "stride/Assets/Shadows/ShadowMapCasterCubeMap.sdfx",
+        "stride/Assets/Shadows/ShadowMapCasterCubeMapProjection.sdsl",
+        "stride/Assets/Shadows/ShadowMapCasterNoPixelShader.sdsl",
+        "stride/Assets/Shadows/ShadowMapCasterParaboloid.sdfx",
+        "stride/Assets/Shadows/ShadowMapCasterParaboloidProjection.sdsl",
+        "stride/Assets/Shadows/ShadowMapCasterVsm.sdsl",
+        "stride/Assets/Shadows/ShadowMapCommon.sdsl",
+        "stride/Assets/Shadows/ShadowMapFilterBase.sdsl",
+        "stride/Assets/Shadows/ShadowMapFilterDefault.sdsl",
+        "stride/Assets/Shadows/ShadowMapFilterPcf.sdsl",
+        "stride/Assets/Shadows/ShadowMapFilterVsm.sdsl",
+        "stride/Assets/Shadows/ShadowMapGroup.sdsl",
+        "stride/Assets/Shadows/ShadowMapReceiverBase.sdsl",
+        "stride/Assets/Shadows/ShadowMapReceiverDirectional.sdsl",
+        "stride/Assets/Shadows/ShadowMapReceiverPointCubeMap.sdsl",
+        "stride/Assets/Shadows/ShadowMapReceiverPointParaboloid.sdsl",
+        "stride/Assets/Shadows/ShadowMapReceiverSpot.sdsl",
+        "stride/Assets/Shadows/ShadowStream.sdsl",
+        "stride/Assets/Skinning/NormalMeshSkinning.sdsl",
+        "stride/Assets/Skinning/NormalVSSkinningFromMesh.sdsl",
+        "stride/Assets/Skinning/NormalVSSkinningNormalMapping.sdsl",
+        "stride/Assets/Skinning/NormalVSSkinningNormalMappingTessellation.sdsl",
+        "stride/Assets/Skinning/TangentMeshSkinning.sdsl",
+        "stride/Assets/Skinning/TransformationSkinning.sdsl",
+        "stride/Assets/Skinning/TransformationSkinningInstanced.sdsl",
+        "stride/Assets/Skyboxes/CubemapUtils.sdsl",
+        "stride/Assets/Skyboxes/IComputeEnvironmentColor.sdsl",
+        "stride/Assets/Skyboxes/LevelCubeMapEnvironmentColor.sdsl",
+        "stride/Assets/Skyboxes/RoughnessCubeMapEnvironmentColor.sdsl",
+        "stride/Assets/Skyboxes/SkyboxShaderBase.sdsl",
+        "stride/Assets/Skyboxes/SkyboxShaderCubemap.sdsl",
+        "stride/Assets/Skyboxes/SkyboxShaderTexture.sdsl",
+        "stride/Assets/Skyboxes/SkyboxStream.sdsl",
+        "stride/Assets/Skyboxes/SphericalHarmonicsEnvironmentColor.sdsl",
+        "stride/Assets/StrideEffectBase.sdfx",
+        "stride/Assets/StrideForwardShadingEffect.sdfx",
+        "stride/Assets/StrideWireframeShadingEffect.sdfx",
+        "stride/Assets/Tessellation/TessellationAE2.sdsl",
+        "stride/Assets/Tessellation/TessellationAE3.sdsl",
+        "stride/Assets/Tessellation/TessellationAE4.sdsl",
+        "stride/Assets/Tessellation/TessellationBase.sdsl",
+        "stride/Assets/Tessellation/TessellationFlat.sdsl",
+        "stride/Assets/Tessellation/TessellationPN.sdsl",
+        "stride/Assets/Transformation/TransformationBase.sdsl",
+        "stride/Assets/Transformation/TransformationInstancing.sdsl",
+        "stride/Assets/Transformation/TransformationMatrix.sdsl",
+        "stride/Assets/Transformation/TransformationWAndVP.sdsl",
+        "stride/Assets/Transformation/TransformationWAndVPInstanced.sdsl",
+        "stride/Assets/Transformation/TransformationWVP.sdsl",
+        "stride/Assets/Transformation/TransformationZero.sdsl",
+        "stride/Assets/Utils/BlendUtils.sdsl",
+        "stride/Assets/Utils/DepthBase.sdsl",
+        "stride/Assets/Utils/FlattenLayers.sdsl",
+        "stride/Assets/Utils/HSVUtils.sdsl",
+        "stride/Assets/Utils/HighlightShader.sdsl",
+        "stride/Assets/Utils/Math.sdsl",
+        "stride/Assets/Utils/ModelComponentPickingEffect.sdfx",
+        "stride/Assets/Utils/ModelComponentPickingShader.sdsl",
+        "stride/Assets/Utils/NormalPack.sdsl",
+        "stride/Assets/Utils/NormalUtil.sdsl",
+        "stride/Assets/Utils/OpaqueBase.sdsl",
+        "stride/Assets/Utils/Picking.sdfx",
+        "stride/Assets/Utils/PickingShader.sdsl",
+        "stride/Assets/Utils/SwapUV.sdsl",
+        "stride/Assets/Utils/Utilities.sdsl",
+        "stride/Stride.Rendering.sdpkg"
+      ]
+    },
+    "Stride.Shaders/4.3.0.2507": {
+      "sha512": "MHaX24XCtPCyE3Ws9cEreyCLcPX8yz+sOTAdCCRm97o53UGp2xZeFPMzbFZDKyA5RIIny0Pah5PpbcI6/IRKfw==",
+      "type": "package",
+      "path": "stride.shaders/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.Shaders.dll",
+        "lib/net10.0-android36.0/Stride.Shaders.pdb",
+        "lib/net10.0-android36.0/Stride.Shaders.usrdoc",
+        "lib/net10.0-android36.0/Stride.Shaders.xml",
+        "lib/net10.0-ios26.0/Stride.Shaders.dll",
+        "lib/net10.0-ios26.0/Stride.Shaders.pdb",
+        "lib/net10.0-ios26.0/Stride.Shaders.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Shaders.xml",
+        "lib/net10.0/Stride.Shaders.dll",
+        "lib/net10.0/Stride.Shaders.pdb",
+        "lib/net10.0/Stride.Shaders.usrdoc",
+        "lib/net10.0/Stride.Shaders.xml",
+        "nuget-icon.png",
+        "stride.shaders.4.3.0.2507.nupkg.sha512",
+        "stride.shaders.nuspec"
+      ]
+    },
+    "Stride.Shaders.Compiler/4.3.0.2507": {
+      "sha512": "bP6We1U4G5FPmB5OXJ6MmtdkCvhklNlOwUhlAZOwaDB+PS7GLJLLjTzWTGwaEyAZK9ySQU4YeefG5qX7wZqBxg==",
+      "type": "package",
+      "path": "stride.shaders.compiler/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "contentFiles/any/any/linux-x64/glslangValidator.bin",
+        "contentFiles/any/any/osx-x64/glslangValidator.bin",
+        "contentFiles/any/any/win-x64/glslangValidator.exe",
+        "lib/net10.0-android36.0/Stride.Shaders.Compiler.dll",
+        "lib/net10.0-android36.0/Stride.Shaders.Compiler.pdb",
+        "lib/net10.0-android36.0/Stride.Shaders.Compiler.usrdoc",
+        "lib/net10.0-android36.0/Stride.Shaders.Compiler.xml",
+        "lib/net10.0-ios26.0/Stride.Shaders.Compiler.dll",
+        "lib/net10.0-ios26.0/Stride.Shaders.Compiler.pdb",
+        "lib/net10.0-ios26.0/Stride.Shaders.Compiler.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Shaders.Compiler.xml",
+        "lib/net10.0/Stride.Shaders.Compiler.dll",
+        "lib/net10.0/Stride.Shaders.Compiler.pdb",
+        "lib/net10.0/Stride.Shaders.Compiler.ssdeps",
+        "lib/net10.0/Stride.Shaders.Compiler.usrdoc",
+        "lib/net10.0/Stride.Shaders.Compiler.xml",
+        "nuget-icon.png",
+        "runtimes/win-arm64/native/d3dcompiler_47.dll",
+        "runtimes/win-x64/native/d3dcompiler_47.dll",
+        "runtimes/win-x86/native/d3dcompiler_47.dll",
+        "stride.shaders.compiler.4.3.0.2507.nupkg.sha512",
+        "stride.shaders.compiler.nuspec"
+      ]
+    },
+    "Stride.Shaders.Parser/4.3.0.2507": {
+      "sha512": "2UTc3bA3Q/aWAVJRns4sWjDk2NUkfpPpzPDsq7758KYxt8L+X3zIZo9Gf7fxd/iBVxxzTKT6FTX4uweiAar9oA==",
+      "type": "package",
+      "path": "stride.shaders.parser/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.Shaders.Parser.dll",
+        "lib/net10.0-android36.0/Stride.Shaders.Parser.pdb",
+        "lib/net10.0-android36.0/Stride.Shaders.Parser.usrdoc",
+        "lib/net10.0-android36.0/Stride.Shaders.Parser.xml",
+        "lib/net10.0-ios26.0/Stride.Shaders.Parser.dll",
+        "lib/net10.0-ios26.0/Stride.Shaders.Parser.pdb",
+        "lib/net10.0-ios26.0/Stride.Shaders.Parser.usrdoc",
+        "lib/net10.0-ios26.0/Stride.Shaders.Parser.xml",
+        "lib/net10.0/Stride.Shaders.Parser.dll",
+        "lib/net10.0/Stride.Shaders.Parser.pdb",
+        "lib/net10.0/Stride.Shaders.Parser.usrdoc",
+        "lib/net10.0/Stride.Shaders.Parser.xml",
+        "nuget-icon.png",
+        "stride.shaders.parser.4.3.0.2507.nupkg.sha512",
+        "stride.shaders.parser.nuspec"
+      ]
+    },
+    "Stride.SharpFont/1.0.1": {
+      "sha512": "1jD06aJxJDwpGNChiLSnDYFYif9/P+23Xjpdhdwet5DcDCpvUNMo4s/QmFotmH09MoI/RC2JQl5/TtVeFMGdPQ==",
+      "type": "package",
+      "path": "stride.sharpfont/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net8.0/SharpFont.dll",
+        "lib/net8.0/SharpFont.dll.config",
+        "stride.sharpfont.1.0.1.nupkg.sha512",
+        "stride.sharpfont.nuspec"
+      ]
+    },
+    "Stride.UI/4.3.0.2507": {
+      "sha512": "o4MvH23zL3tuOe2LzyL88BWYWCeJ9fzm13pbcfnzxS/vn7dg6ri5PENgJcQTPPpZ14mwnpA1cunsv82iLfCziA==",
+      "type": "package",
+      "path": "stride.ui/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.UI.dll",
+        "lib/net10.0-android36.0/Stride.UI.pdb",
+        "lib/net10.0-android36.0/Stride.UI.usrdoc",
+        "lib/net10.0-android36.0/Stride.UI.xml",
+        "lib/net10.0-ios26.0/Stride.UI.dll",
+        "lib/net10.0-ios26.0/Stride.UI.pdb",
+        "lib/net10.0-ios26.0/Stride.UI.usrdoc",
+        "lib/net10.0-ios26.0/Stride.UI.xml",
+        "lib/net10.0/Stride.UI.dll",
+        "lib/net10.0/Stride.UI.pdb",
+        "lib/net10.0/Stride.UI.usrdoc",
+        "lib/net10.0/Stride.UI.xml",
+        "nuget-icon.png",
+        "stride.ui.4.3.0.2507.nupkg.sha512",
+        "stride.ui.nuspec"
+      ]
+    },
+    "Stride.VirtualReality/4.3.0.2507": {
+      "sha512": "0XLsbFKObxZt1A/KsQrpnNR7jYzPkYwchBy4O/IvQ9tOmQrqhZwIa+cKXeGGkyhT9VlFqKY7LxqpellMnRUUHw==",
+      "type": "package",
+      "path": "stride.virtualreality/4.3.0.2507",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net10.0-android36.0/Stride.VirtualReality.dll",
+        "lib/net10.0-android36.0/Stride.VirtualReality.pdb",
+        "lib/net10.0-android36.0/Stride.VirtualReality.ssdeps",
+        "lib/net10.0-android36.0/Stride.VirtualReality.usrdoc",
+        "lib/net10.0-android36.0/Stride.VirtualReality.xml",
+        "lib/net10.0-ios26.0/Stride.VirtualReality.dll",
+        "lib/net10.0-ios26.0/Stride.VirtualReality.pdb",
+        "lib/net10.0-ios26.0/Stride.VirtualReality.ssdeps",
+        "lib/net10.0-ios26.0/Stride.VirtualReality.usrdoc",
+        "lib/net10.0-ios26.0/Stride.VirtualReality.xml",
+        "lib/net10.0/Direct3D11/Stride.VirtualReality.dll",
+        "lib/net10.0/Direct3D11/Stride.VirtualReality.ssdeps",
+        "lib/net10.0/Direct3D11/Stride.VirtualReality.usrdoc",
+        "lib/net10.0/Direct3D11/Stride.VirtualReality.xml",
+        "lib/net10.0/Direct3D12/Stride.VirtualReality.dll",
+        "lib/net10.0/Direct3D12/Stride.VirtualReality.usrdoc",
+        "lib/net10.0/Direct3D12/Stride.VirtualReality.xml",
+        "lib/net10.0/OpenGL/Stride.VirtualReality.dll",
+        "lib/net10.0/OpenGL/Stride.VirtualReality.usrdoc",
+        "lib/net10.0/OpenGL/Stride.VirtualReality.xml",
+        "lib/net10.0/OpenGLES/Stride.VirtualReality.dll",
+        "lib/net10.0/OpenGLES/Stride.VirtualReality.usrdoc",
+        "lib/net10.0/OpenGLES/Stride.VirtualReality.xml",
+        "lib/net10.0/Stride.VirtualReality.dll",
+        "lib/net10.0/Stride.VirtualReality.pdb",
+        "lib/net10.0/Stride.VirtualReality.ssdeps",
+        "lib/net10.0/Stride.VirtualReality.usrdoc",
+        "lib/net10.0/Stride.VirtualReality.xml",
+        "lib/net10.0/Vulkan/Stride.VirtualReality.dll",
+        "lib/net10.0/Vulkan/Stride.VirtualReality.usrdoc",
+        "lib/net10.0/Vulkan/Stride.VirtualReality.xml",
+        "nuget-icon.png",
+        "runtimes/android-arm/native/libstridevr.so",
+        "runtimes/android-arm64/native/libstridevr.so",
+        "runtimes/android-x64/native/libstridevr.so",
+        "runtimes/android-x86/native/libstridevr.so",
+        "runtimes/ios/native/libNativePath.a",
+        "runtimes/ios/native/libstridevr.a",
+        "runtimes/linux-x64/native/libstridevr.so",
+        "runtimes/osx-x64/native/libstridevr.dylib",
+        "runtimes/win-x64/native/libstridevr.dll",
+        "runtimes/win-x64/native/openvr_api.dll",
+        "runtimes/win-x64/native/openxr_loader.dll",
+        "runtimes/win-x86/native/libstridevr.dll",
+        "runtimes/win-x86/native/openvr_api.dll",
+        "stride.virtualreality.4.3.0.2507.nupkg.sha512",
+        "stride.virtualreality.nuspec"
+      ]
+    },
+    "System.Data.HashFunction.Interfaces/2.0.0": {
+      "sha512": "ESxg15JHcRWXfRgzVUF8FhRZ1xAuXo6zgaL4kCdB9DV2cnrAwRGiycCMlMsfOLXOMrkHZZbcBuKlO8pyxDCCOg==",
+      "type": "package",
+      "path": "system.data.hashfunction.interfaces/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/System.Data.HashFunction.Interfaces.dll",
+        "lib/net45/System.Data.HashFunction.Interfaces.xml",
+        "lib/netstandard1.1/System.Data.HashFunction.Interfaces.dll",
+        "lib/netstandard1.1/System.Data.HashFunction.Interfaces.xml",
+        "system.data.hashfunction.interfaces.2.0.0.nupkg.sha512",
+        "system.data.hashfunction.interfaces.nuspec"
+      ]
+    },
+    "System.Drawing.Common/8.0.1": {
+      "sha512": "x0rAZECxIGx/YVjN28YRdpqka0+H7YMN9741FUDzipXPDzesd60gef/LI0ZCOcYSDsacTLTHvMAvxHG+TjbNNQ==",
+      "type": "package",
+      "path": "system.drawing.common/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.pdb",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net6.0/System.Drawing.Common.dll",
+        "lib/net6.0/System.Drawing.Common.pdb",
+        "lib/net6.0/System.Drawing.Common.xml",
+        "lib/net7.0/System.Drawing.Common.dll",
+        "lib/net7.0/System.Drawing.Common.pdb",
+        "lib/net7.0/System.Drawing.Common.xml",
+        "lib/net8.0/System.Drawing.Common.dll",
+        "lib/net8.0/System.Drawing.Common.pdb",
+        "lib/net8.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.pdb",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "system.drawing.common.8.0.1.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.ValueTuple/4.6.1": {
+      "sha512": "+RJT4qaekpZ7DDLhf+LTjq+E48jieKiY9ulJ+BoxKmZblIJfIJT8Ufcaa/clQqnYvWs8jugfGSMu8ylS0caG0w==",
+      "type": "package",
+      "path": "system.valuetuple/4.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "build/net471/System.ValueTuple.targets",
+        "buildTransitive/net461/System.ValueTuple.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net471/System.ValueTuple.targets",
+        "lib/net462/System.ValueTuple.dll",
+        "lib/net462/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/net471/_._",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard2.0/_._",
+        "system.valuetuple.4.6.1.nupkg.sha512",
+        "system.valuetuple.nuspec"
+      ]
+    },
+    "Ultz.Native.SDL/2.30.8": {
+      "sha512": "akI6qe9zjA3T9Y5421cfHYKonIkV1rSr3Dgo5qOwxthXXRwTVsnJwb/Ap2x6/6BZcbhczeY+4aUw+2FYJF9LYw==",
+      "type": "package",
+      "path": "ultz.native.sdl/2.30.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/net461/Ultz.Native.SDL.targets",
+        "build/netstandard2.0/Ultz.Native.SDL.targets",
+        "buildTransitive/net461/Ultz.Native.SDL.targets",
+        "buildTransitive/netstandard2.0/Ultz.Native.SDL.targets",
+        "lib/net461/_._",
+        "lib/netstandard2.0/_._",
+        "runtimes/ios/native/libSDL2.a",
+        "runtimes/iossimulator/native/libSDL2.a",
+        "runtimes/linux-arm/native/libSDL2-2.0.so",
+        "runtimes/linux-arm64/native/libSDL2-2.0.so",
+        "runtimes/linux-x64/native/libSDL2-2.0.so",
+        "runtimes/osx/native/libSDL2-2.0.dylib",
+        "runtimes/tvos/native/libSDL2.a",
+        "runtimes/tvossimulator/native/libSDL2.a",
+        "runtimes/win-arm64/native/SDL2.dll",
+        "runtimes/win-x64/native/SDL2.dll",
+        "runtimes/win-x86/native/SDL2.dll",
+        "silkdotnet_v3.png",
+        "ultz.native.sdl.2.30.8.nupkg.sha512",
+        "ultz.native.sdl.nuspec"
+      ]
+    },
+    "Vortice.Vulkan/2.1.2": {
+      "sha512": "+FQellDgWFtw2sHE9IkO6PusEjTilk48VtyWyDM6iHnCZJDlYMgxvCeenUlu15KK1xWIeGRaDF2GMKOFc2mS8g==",
+      "type": "package",
+      "path": "vortice.vulkan/2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Vortice.Vulkan.dll",
+        "lib/net8.0/Vortice.Vulkan.pdb",
+        "lib/net8.0/Vortice.Vulkan.xml",
+        "lib/net9.0/Vortice.Vulkan.dll",
+        "lib/net9.0/Vortice.Vulkan.pdb",
+        "lib/net9.0/Vortice.Vulkan.xml",
+        "vortice.vulkan.2.1.2.nupkg.sha512",
+        "vortice.vulkan.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net10.0": [
+      "BouncyCastle.NetCore >= 2.2.1",
+      "Ceras >= 4.1.7",
+      "Data.HashFunction.Blake3 >= 3.1.2",
+      "DouglasDwyer.CasCore >= 0.2.1",
+      "EasyCompressor.LZ4 >= 2.1.0",
+      "K4os.Compression.LZ4 >= 1.3.8",
+      "Konscious.Security.Cryptography.Argon2 >= 1.3.1",
+      "Newtonsoft.Json >= 13.0.4",
+      "Stride.CommunityToolkit >= 1.0.0-preview.62",
+      "System.Data.HashFunction.Interfaces >= 2.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\WalkerDev\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\WalkerDev\\source\\repos\\HangarBay\\HangarBay\\HangarBay.csproj",
+      "projectName": "HangarBay",
+      "projectPath": "C:\\Users\\WalkerDev\\source\\repos\\HangarBay\\HangarBay\\HangarBay.csproj",
+      "packagesPath": "C:\\Users\\WalkerDev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\WalkerDev\\source\\repos\\HangarBay\\HangarBay\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\WalkerDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net10.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net10.0": {
+          "targetAlias": "net10.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "10.0.100"
+    },
+    "frameworks": {
+      "net10.0": {
+        "targetAlias": "net10.0",
+        "dependencies": {
+          "BouncyCastle.NetCore": {
+            "target": "Package",
+            "version": "[2.2.1, )"
+          },
+          "Ceras": {
+            "target": "Package",
+            "version": "[4.1.7, )"
+          },
+          "Data.HashFunction.Blake3": {
+            "target": "Package",
+            "version": "[3.1.2, )"
+          },
+          "DouglasDwyer.CasCore": {
+            "target": "Package",
+            "version": "[0.2.1, )"
+          },
+          "EasyCompressor.LZ4": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
+          "K4os.Compression.LZ4": {
+            "target": "Package",
+            "version": "[1.3.8, )"
+          },
+          "Konscious.Security.Cryptography.Argon2": {
+            "target": "Package",
+            "version": "[1.3.1, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.4, )"
+          },
+          "Stride.CommunityToolkit": {
+            "target": "Package",
+            "version": "[1.0.0-preview.62, )"
+          },
+          "System.Data.HashFunction.Interfaces": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
+        "packagesToPrune": {
+          "Microsoft.CSharp": "(,4.7.32767]",
+          "Microsoft.VisualBasic": "(,10.4.32767]",
+          "Microsoft.Win32.Primitives": "(,4.3.32767]",
+          "Microsoft.Win32.Registry": "(,5.0.32767]",
+          "runtime.any.System.Collections": "(,4.3.32767]",
+          "runtime.any.System.Diagnostics.Tools": "(,4.3.32767]",
+          "runtime.any.System.Diagnostics.Tracing": "(,4.3.32767]",
+          "runtime.any.System.Globalization": "(,4.3.32767]",
+          "runtime.any.System.Globalization.Calendars": "(,4.3.32767]",
+          "runtime.any.System.IO": "(,4.3.32767]",
+          "runtime.any.System.Reflection": "(,4.3.32767]",
+          "runtime.any.System.Reflection.Extensions": "(,4.3.32767]",
+          "runtime.any.System.Reflection.Primitives": "(,4.3.32767]",
+          "runtime.any.System.Resources.ResourceManager": "(,4.3.32767]",
+          "runtime.any.System.Runtime": "(,4.3.32767]",
+          "runtime.any.System.Runtime.Handles": "(,4.3.32767]",
+          "runtime.any.System.Runtime.InteropServices": "(,4.3.32767]",
+          "runtime.any.System.Text.Encoding": "(,4.3.32767]",
+          "runtime.any.System.Text.Encoding.Extensions": "(,4.3.32767]",
+          "runtime.any.System.Threading.Tasks": "(,4.3.32767]",
+          "runtime.any.System.Threading.Timer": "(,4.3.32767]",
+          "runtime.aot.System.Collections": "(,4.3.32767]",
+          "runtime.aot.System.Diagnostics.Tools": "(,4.3.32767]",
+          "runtime.aot.System.Diagnostics.Tracing": "(,4.3.32767]",
+          "runtime.aot.System.Globalization": "(,4.3.32767]",
+          "runtime.aot.System.Globalization.Calendars": "(,4.3.32767]",
+          "runtime.aot.System.IO": "(,4.3.32767]",
+          "runtime.aot.System.Reflection": "(,4.3.32767]",
+          "runtime.aot.System.Reflection.Extensions": "(,4.3.32767]",
+          "runtime.aot.System.Reflection.Primitives": "(,4.3.32767]",
+          "runtime.aot.System.Resources.ResourceManager": "(,4.3.32767]",
+          "runtime.aot.System.Runtime": "(,4.3.32767]",
+          "runtime.aot.System.Runtime.Handles": "(,4.3.32767]",
+          "runtime.aot.System.Runtime.InteropServices": "(,4.3.32767]",
+          "runtime.aot.System.Text.Encoding": "(,4.3.32767]",
+          "runtime.aot.System.Text.Encoding.Extensions": "(,4.3.32767]",
+          "runtime.aot.System.Threading.Tasks": "(,4.3.32767]",
+          "runtime.aot.System.Threading.Timer": "(,4.3.32767]",
+          "runtime.debian.8-x64.runtime.native.System": "(,4.3.32767]",
+          "runtime.debian.8-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.debian.8-x64.runtime.native.System.Net.Http": "(,4.3.32767]",
+          "runtime.debian.8-x64.runtime.native.System.Net.Security": "(,4.3.32767]",
+          "runtime.debian.8-x64.runtime.native.System.Security.Cryptography": "(,4.3.32767]",
+          "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl": "(,4.3.32767]",
+          "runtime.debian.9-x64.runtime.native.System": "(,4.3.32767]",
+          "runtime.debian.9-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.debian.9-x64.runtime.native.System.Net.Http": "(,4.3.32767]",
+          "runtime.debian.9-x64.runtime.native.System.Net.Security": "(,4.3.32767]",
+          "runtime.fedora.23-x64.runtime.native.System": "(,4.3.32767]",
+          "runtime.fedora.23-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.fedora.23-x64.runtime.native.System.Net.Http": "(,4.3.32767]",
+          "runtime.fedora.23-x64.runtime.native.System.Net.Security": "(,4.3.32767]",
+          "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography": "(,4.3.32767]",
+          "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl": "(,4.3.32767]",
+          "runtime.fedora.24-x64.runtime.native.System": "(,4.3.32767]",
+          "runtime.fedora.24-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.fedora.24-x64.runtime.native.System.Net.Http": "(,4.3.32767]",
+          "runtime.fedora.24-x64.runtime.native.System.Net.Security": "(,4.3.32767]",
+          "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography": "(,4.3.32767]",
+          "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl": "(,4.3.32767]",
+          "runtime.fedora.27-x64.runtime.native.System": "(,4.3.32767]",
+          "runtime.fedora.27-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.fedora.27-x64.runtime.native.System.Net.Http": "(,4.3.32767]",
+          "runtime.fedora.27-x64.runtime.native.System.Net.Security": "(,4.3.32767]",
+          "runtime.fedora.28-x64.runtime.native.System": "(,4.3.32767]",
+          "runtime.fedora.28-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.fedora.28-x64.runtime.native.System.Net.Http": "(,4.3.32767]",
+          "runtime.fedora.28-x64.runtime.native.System.Net.Security": "(,4.3.32767]",
+          "runtime.opensuse.13.2-x64.runtime.native.System": "(,4.3.32767]",
+          "runtime.opensuse.13.2-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.opensuse.13.2-x64.runtime.native.System.Net.Http": "(,4.3.32767]",
+          "runtime.opensuse.13.2-x64.runtime.native.System.Net.Security": "(,4.3.32767]",
+          "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography": "(,4.3.32767]",
+          "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl": "(,4.3.32767]",
+          "runtime.opensuse.42.1-x64.runtime.native.System": "(,4.3.32767]",
+          "runtime.opensuse.42.1-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.opensuse.42.1-x64.runtime.native.System.Net.Http": "(,4.3.32767]",
+          "runtime.opensuse.42.1-x64.runtime.native.System.Net.Security": "(,4.3.32767]",
+          "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography": "(,4.3.32767]",
+          "runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl": "(,4.3.32767]",
+          "runtime.opensuse.42.3-x64.runtime.native.System": "(,4.3.32767]",
+          "runtime.opensuse.42.3-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.opensuse.42.3-x64.runtime.native.System.Net.Http": "(,4.3.32767]",
+          "runtime.opensuse.42.3-x64.runtime.native.System.Net.Security": "(,4.3.32767]",
+          "runtime.osx.10.10-x64.runtime.native.System": "(,4.3.32767]",
+          "runtime.osx.10.10-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.osx.10.10-x64.runtime.native.System.Net.Http": "(,4.3.32767]",
+          "runtime.osx.10.10-x64.runtime.native.System.Net.Security": "(,4.3.32767]",
+          "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography": "(,4.3.32767]",
+          "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple": "(,4.3.32767]",
+          "runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl": "(,4.3.32767]",
+          "runtime.rhel.7-x64.runtime.native.System": "(,4.3.32767]",
+          "runtime.rhel.7-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.rhel.7-x64.runtime.native.System.Net.Http": "(,4.3.32767]",
+          "runtime.rhel.7-x64.runtime.native.System.Net.Security": "(,4.3.32767]",
+          "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography": "(,4.3.32767]",
+          "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl": "(,4.3.32767]",
+          "runtime.ubuntu.14.04-x64.runtime.native.System": "(,4.3.32767]",
+          "runtime.ubuntu.14.04-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.ubuntu.14.04-x64.runtime.native.System.Net.Http": "(,4.3.32767]",
+          "runtime.ubuntu.14.04-x64.runtime.native.System.Net.Security": "(,4.3.32767]",
+          "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography": "(,4.3.32767]",
+          "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl": "(,4.3.32767]",
+          "runtime.ubuntu.16.04-x64.runtime.native.System": "(,4.3.32767]",
+          "runtime.ubuntu.16.04-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.ubuntu.16.04-x64.runtime.native.System.Net.Http": "(,4.3.32767]",
+          "runtime.ubuntu.16.04-x64.runtime.native.System.Net.Security": "(,4.3.32767]",
+          "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography": "(,4.3.32767]",
+          "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl": "(,4.3.32767]",
+          "runtime.ubuntu.16.10-x64.runtime.native.System": "(,4.3.32767]",
+          "runtime.ubuntu.16.10-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.ubuntu.16.10-x64.runtime.native.System.Net.Http": "(,4.3.32767]",
+          "runtime.ubuntu.16.10-x64.runtime.native.System.Net.Security": "(,4.3.32767]",
+          "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography": "(,4.3.32767]",
+          "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl": "(,4.3.32767]",
+          "runtime.ubuntu.18.04-x64.runtime.native.System": "(,4.3.32767]",
+          "runtime.ubuntu.18.04-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.ubuntu.18.04-x64.runtime.native.System.Net.Http": "(,4.3.32767]",
+          "runtime.ubuntu.18.04-x64.runtime.native.System.Net.Security": "(,4.3.32767]",
+          "runtime.unix.Microsoft.Win32.Primitives": "(,4.3.32767]",
+          "runtime.unix.System.Console": "(,4.3.32767]",
+          "runtime.unix.System.Diagnostics.Debug": "(,4.3.32767]",
+          "runtime.unix.System.IO.FileSystem": "(,4.3.32767]",
+          "runtime.unix.System.Net.Primitives": "(,4.3.32767]",
+          "runtime.unix.System.Net.Sockets": "(,4.3.32767]",
+          "runtime.unix.System.Private.Uri": "(,4.3.32767]",
+          "runtime.unix.System.Runtime.Extensions": "(,4.3.32767]",
+          "runtime.win.Microsoft.Win32.Primitives": "(,4.3.32767]",
+          "runtime.win.System.Console": "(,4.3.32767]",
+          "runtime.win.System.Diagnostics.Debug": "(,4.3.32767]",
+          "runtime.win.System.IO.FileSystem": "(,4.3.32767]",
+          "runtime.win.System.Net.Primitives": "(,4.3.32767]",
+          "runtime.win.System.Net.Sockets": "(,4.3.32767]",
+          "runtime.win.System.Runtime.Extensions": "(,4.3.32767]",
+          "runtime.win10-arm-aot.runtime.native.System.IO.Compression": "(,4.0.32767]",
+          "runtime.win10-arm64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.win10-x64-aot.runtime.native.System.IO.Compression": "(,4.0.32767]",
+          "runtime.win10-x86-aot.runtime.native.System.IO.Compression": "(,4.0.32767]",
+          "runtime.win7-x64.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.win7-x86.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "runtime.win7.System.Private.Uri": "(,4.3.32767]",
+          "runtime.win8-arm.runtime.native.System.IO.Compression": "(,4.3.32767]",
+          "System.AppContext": "(,4.3.32767]",
+          "System.Buffers": "(,5.0.32767]",
+          "System.Collections": "(,4.3.32767]",
+          "System.Collections.Concurrent": "(,4.3.32767]",
+          "System.Collections.Immutable": "(,10.0.32767]",
+          "System.Collections.NonGeneric": "(,4.3.32767]",
+          "System.Collections.Specialized": "(,4.3.32767]",
+          "System.ComponentModel": "(,4.3.32767]",
+          "System.ComponentModel.Annotations": "(,4.3.32767]",
+          "System.ComponentModel.EventBasedAsync": "(,4.3.32767]",
+          "System.ComponentModel.Primitives": "(,4.3.32767]",
+          "System.ComponentModel.TypeConverter": "(,4.3.32767]",
+          "System.Console": "(,4.3.32767]",
+          "System.Data.Common": "(,4.3.32767]",
+          "System.Data.DataSetExtensions": "(,4.4.32767]",
+          "System.Diagnostics.Contracts": "(,4.3.32767]",
+          "System.Diagnostics.Debug": "(,4.3.32767]",
+          "System.Diagnostics.DiagnosticSource": "(,10.0.32767]",
+          "System.Diagnostics.FileVersionInfo": "(,4.3.32767]",
+          "System.Diagnostics.Process": "(,4.3.32767]",
+          "System.Diagnostics.StackTrace": "(,4.3.32767]",
+          "System.Diagnostics.TextWriterTraceListener": "(,4.3.32767]",
+          "System.Diagnostics.Tools": "(,4.3.32767]",
+          "System.Diagnostics.TraceSource": "(,4.3.32767]",
+          "System.Diagnostics.Tracing": "(,4.3.32767]",
+          "System.Drawing.Primitives": "(,4.3.32767]",
+          "System.Dynamic.Runtime": "(,4.3.32767]",
+          "System.Formats.Asn1": "(,10.0.32767]",
+          "System.Formats.Tar": "(,10.0.32767]",
+          "System.Globalization": "(,4.3.32767]",
+          "System.Globalization.Calendars": "(,4.3.32767]",
+          "System.Globalization.Extensions": "(,4.3.32767]",
+          "System.IO": "(,4.3.32767]",
+          "System.IO.Compression": "(,4.3.32767]",
+          "System.IO.Compression.ZipFile": "(,4.3.32767]",
+          "System.IO.FileSystem": "(,4.3.32767]",
+          "System.IO.FileSystem.AccessControl": "(,4.4.32767]",
+          "System.IO.FileSystem.DriveInfo": "(,4.3.32767]",
+          "System.IO.FileSystem.Primitives": "(,4.3.32767]",
+          "System.IO.FileSystem.Watcher": "(,4.3.32767]",
+          "System.IO.IsolatedStorage": "(,4.3.32767]",
+          "System.IO.MemoryMappedFiles": "(,4.3.32767]",
+          "System.IO.Pipelines": "(,10.0.32767]",
+          "System.IO.Pipes": "(,4.3.32767]",
+          "System.IO.Pipes.AccessControl": "(,5.0.32767]",
+          "System.IO.UnmanagedMemoryStream": "(,4.3.32767]",
+          "System.Linq": "(,4.3.32767]",
+          "System.Linq.AsyncEnumerable": "(,10.0.32767]",
+          "System.Linq.Expressions": "(,4.3.32767]",
+          "System.Linq.Parallel": "(,4.3.32767]",
+          "System.Linq.Queryable": "(,4.3.32767]",
+          "System.Memory": "(,5.0.32767]",
+          "System.Net.Http": "(,4.3.32767]",
+          "System.Net.Http.Json": "(,10.0.32767]",
+          "System.Net.NameResolution": "(,4.3.32767]",
+          "System.Net.NetworkInformation": "(,4.3.32767]",
+          "System.Net.Ping": "(,4.3.32767]",
+          "System.Net.Primitives": "(,4.3.32767]",
+          "System.Net.Requests": "(,4.3.32767]",
+          "System.Net.Security": "(,4.3.32767]",
+          "System.Net.ServerSentEvents": "(,10.0.32767]",
+          "System.Net.Sockets": "(,4.3.32767]",
+          "System.Net.WebHeaderCollection": "(,4.3.32767]",
+          "System.Net.WebSockets": "(,4.3.32767]",
+          "System.Net.WebSockets.Client": "(,4.3.32767]",
+          "System.Numerics.Vectors": "(,5.0.32767]",
+          "System.ObjectModel": "(,4.3.32767]",
+          "System.Private.DataContractSerialization": "(,4.3.32767]",
+          "System.Private.Uri": "(,4.3.32767]",
+          "System.Reflection": "(,4.3.32767]",
+          "System.Reflection.DispatchProxy": "(,6.0.32767]",
+          "System.Reflection.Emit": "(,4.7.32767]",
+          "System.Reflection.Emit.ILGeneration": "(,4.7.32767]",
+          "System.Reflection.Emit.Lightweight": "(,4.7.32767]",
+          "System.Reflection.Extensions": "(,4.3.32767]",
+          "System.Reflection.Metadata": "(,10.0.32767]",
+          "System.Reflection.Primitives": "(,4.3.32767]",
+          "System.Reflection.TypeExtensions": "(,4.3.32767]",
+          "System.Resources.Reader": "(,4.3.32767]",
+          "System.Resources.ResourceManager": "(,4.3.32767]",
+          "System.Resources.Writer": "(,4.3.32767]",
+          "System.Runtime": "(,4.3.32767]",
+          "System.Runtime.CompilerServices.Unsafe": "(,7.0.32767]",
+          "System.Runtime.CompilerServices.VisualC": "(,4.3.32767]",
+          "System.Runtime.Extensions": "(,4.3.32767]",
+          "System.Runtime.Handles": "(,4.3.32767]",
+          "System.Runtime.InteropServices": "(,4.3.32767]",
+          "System.Runtime.InteropServices.RuntimeInformation": "(,4.3.32767]",
+          "System.Runtime.Loader": "(,4.3.32767]",
+          "System.Runtime.Numerics": "(,4.3.32767]",
+          "System.Runtime.Serialization.Formatters": "(,4.3.32767]",
+          "System.Runtime.Serialization.Json": "(,4.3.32767]",
+          "System.Runtime.Serialization.Primitives": "(,4.3.32767]",
+          "System.Runtime.Serialization.Xml": "(,4.3.32767]",
+          "System.Security.AccessControl": "(,6.0.32767]",
+          "System.Security.Claims": "(,4.3.32767]",
+          "System.Security.Cryptography.Algorithms": "(,4.3.32767]",
+          "System.Security.Cryptography.Cng": "(,5.0.32767]",
+          "System.Security.Cryptography.Csp": "(,4.3.32767]",
+          "System.Security.Cryptography.Encoding": "(,4.3.32767]",
+          "System.Security.Cryptography.OpenSsl": "(,5.0.32767]",
+          "System.Security.Cryptography.Primitives": "(,4.3.32767]",
+          "System.Security.Cryptography.X509Certificates": "(,4.3.32767]",
+          "System.Security.Principal": "(,4.3.32767]",
+          "System.Security.Principal.Windows": "(,5.0.32767]",
+          "System.Security.SecureString": "(,4.3.32767]",
+          "System.Text.Encoding": "(,4.3.32767]",
+          "System.Text.Encoding.CodePages": "(,10.0.32767]",
+          "System.Text.Encoding.Extensions": "(,4.3.32767]",
+          "System.Text.Encodings.Web": "(,10.0.32767]",
+          "System.Text.Json": "(,10.0.32767]",
+          "System.Text.RegularExpressions": "(,4.3.32767]",
+          "System.Threading": "(,4.3.32767]",
+          "System.Threading.AccessControl": "(,10.0.32767]",
+          "System.Threading.Channels": "(,10.0.32767]",
+          "System.Threading.Overlapped": "(,4.3.32767]",
+          "System.Threading.Tasks": "(,4.3.32767]",
+          "System.Threading.Tasks.Dataflow": "(,10.0.32767]",
+          "System.Threading.Tasks.Extensions": "(,5.0.32767]",
+          "System.Threading.Tasks.Parallel": "(,4.3.32767]",
+          "System.Threading.Thread": "(,4.3.32767]",
+          "System.Threading.ThreadPool": "(,4.3.32767]",
+          "System.Threading.Timer": "(,4.3.32767]",
+          "System.ValueTuple": "(,4.5.32767]",
+          "System.Xml.ReaderWriter": "(,4.3.32767]",
+          "System.Xml.XDocument": "(,4.3.32767]",
+          "System.Xml.XmlDocument": "(,4.3.32767]",
+          "System.Xml.XmlSerializer": "(,4.3.32767]",
+          "System.Xml.XPath": "(,4.3.32767]",
+          "System.Xml.XPath.XDocument": "(,5.0.32767]"
+        }
+      }
+    }
+  }
+}
