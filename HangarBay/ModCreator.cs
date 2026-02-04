@@ -119,6 +119,7 @@ namespace HangarBay
                    lower.EndsWith(".sln") ||
                    lower.EndsWith(".user") ||
                    lower.EndsWith(".pdb") ||
+                   lower.EndsWith(".slnx") ||  
                    lower.EndsWith(".deps.json") ||
                    lower.EndsWith(".runtimeconfig.json") ||
                    fileName.StartsWith("."); // hidden files
