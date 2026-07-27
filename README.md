@@ -34,7 +34,6 @@ HangarBay separates **mod creation**, **mod validation**, and **mod execution** 
 <p align="center">
   <a href="https://walkerindustries.xyz">Walker Industries</a> •
   <a href="https://discord.gg/H8h8scsxtH">Discord</a> •
-  <a href="https://www.patreon.com/walkerdev">Patreon</a>
 </p>
 
 <p align="center">
